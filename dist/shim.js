@@ -21661,6 +21661,19 @@ function parseLabels(raw, source) {
   }
   return void 0;
 }
+function parseStringArray(raw, source) {
+  if (!raw) return void 0;
+  try {
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      const out = parsed.filter((x) => typeof x === "string");
+      return out.length > 0 ? out : void 0;
+    }
+  } catch (err) {
+    log(`WARNING: Failed to parse ${source}: ${err}`);
+  }
+  return void 0;
+}
 function loadConfig(directory) {
   let cfg = {
     hubUrl: "https://mcp-relay-hub-5muxctm3ta-ts.a.run.app/mcp",
@@ -21681,7 +21694,17 @@ function loadConfig(directory) {
     cfg.autoPrompt = process.env.HUB_PLUGIN_AUTO_PROMPT.toLowerCase() !== "false";
   const envLabels = parseLabels(process.env.OIS_HUB_LABELS, "OIS_HUB_LABELS env var");
   if (envLabels) cfg.labels = envLabels;
+  const envSuppress = parseStringArray(
+    process.env.OIS_HUB_SUPPRESS_EVENTS,
+    "OIS_HUB_SUPPRESS_EVENTS env var"
+  );
+  if (envSuppress) cfg.suppressEvents = envSuppress;
   return cfg;
+}
+var DEFAULT_SURFACE_SUPPRESS = ["agent_state_changed"];
+function isSurfaceSuppressed(eventType) {
+  if (DEFAULT_SURFACE_SUPPRESS.includes(eventType)) return true;
+  return config2.suppressEvents?.includes(eventType) ?? false;
 }
 var notificationQueue = [];
 var deferredBacklog = [];
@@ -21752,10 +21775,14 @@ async function injectContext(text) {
         // SDK drift (thread-669): v2 SessionPromptData.system is a system-PROMPT
         // string, not a boolean "this is a system message" flag. The old `system: true`
         // was a type mismatch (boolean where string expected). `noReply: true` already
-        // gives the silent/informational path (no assistant turn); the `[Hub Notification]`
-        // prefix marks it. Dropped the bogus boolean.
+        // gives the silent/informational path (no assistant turn).
         noReply: true,
-        parts: [{ type: "text", text: `[Hub Notification] ${text}` }]
+        // thread-671: buildPromptText already emits "[Hub] …"; only add the
+        // "[Hub Notification]" wrapper when the text isn't already Hub-prefixed,
+        // to avoid the "[Hub Notification] [Hub] …" double-prefix.
+        parts: [
+          { type: "text", text: text.startsWith("[Hub") ? text : `[Hub Notification] ${text}` }
+        ]
       }
     });
   } catch (err) {
@@ -21891,6 +21918,7 @@ function buildPluginCallbacks() {
         { event: event.event, data: event.data, action: `[INFO] ${action}` },
         { logPath: notificationLogPath }
       );
+      if (isSurfaceSuppressed(event.event)) return;
       const message = buildToastMessage(event.event, event.data);
       const promptText = buildPromptText(event.event, event.data, { toolPrefix: "architect-hub_" });
       const notification = { level: "informational", message, promptText };
