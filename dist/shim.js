@@ -4,7 +4,10 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __commonJS = (cb, mod) => function __require() {
+var __esm = (fn, res) => function __init() {
+  return fn && (res = (0, fn[__getOwnPropNames(fn)[0]])(fn = 0)), res;
+};
+var __commonJS = (cb, mod) => function __require2() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
 var __export = (target, all) => {
@@ -28,10 +31,19 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/code.js
+// <define:__OPENCODE_BUILD_INFO__>
+var define_OPENCODE_BUILD_INFO_default;
+var init_define_OPENCODE_BUILD_INFO = __esm({
+  "<define:__OPENCODE_BUILD_INFO__>"() {
+    define_OPENCODE_BUILD_INFO_default = { commitSha: "7295220", dirty: false, buildTime: "2026-06-27T15:26:44.413Z", branch: "HEAD" };
+  }
+});
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/code.js
 var require_code = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/code.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/code.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.regexpCode = exports.getEsmExportName = exports.getProperty = exports.safeStringify = exports.stringify = exports.strConcat = exports.addCodeArg = exports.str = exports._ = exports.nil = exports._Code = exports.Name = exports.IDENTIFIER = exports._CodeOrName = void 0;
     var _CodeOrName = class {
@@ -182,10 +194,11 @@ var require_code = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/scope.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/scope.js
 var require_scope = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/scope.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/scope.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ValueScope = exports.ValueScopeName = exports.Scope = exports.varKinds = exports.UsedValueState = void 0;
     var code_1 = require_code();
@@ -327,10 +340,11 @@ var require_scope = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/index.js
 var require_codegen = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/codegen/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.or = exports.and = exports.not = exports.CodeGen = exports.operators = exports.varKinds = exports.ValueScopeName = exports.ValueScope = exports.Scope = exports.Name = exports.regexpCode = exports.stringify = exports.getProperty = exports.nil = exports.strConcat = exports.str = exports._ = void 0;
     var code_1 = require_code();
@@ -1047,10 +1061,11 @@ var require_codegen = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/util.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/util.js
 var require_util = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/util.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/util.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.checkStrictMode = exports.getErrorPath = exports.Type = exports.useFunc = exports.setEvaluated = exports.evaluatedPropsToName = exports.mergeEvaluated = exports.eachItem = exports.unescapeJsonPointer = exports.escapeJsonPointer = exports.escapeFragment = exports.unescapeFragment = exports.schemaRefOrVal = exports.schemaHasRulesButRef = exports.schemaHasRules = exports.checkUnknownRules = exports.alwaysValidSchema = exports.toHash = void 0;
     var codegen_1 = require_codegen();
@@ -1214,10 +1229,11 @@ var require_util = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/names.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/names.js
 var require_names = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/names.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/names.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var names = {
@@ -1253,10 +1269,11 @@ var require_names = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/errors.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/errors.js
 var require_errors = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/errors.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/errors.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.extendErrors = exports.resetErrorsCount = exports.reportExtraError = exports.reportError = exports.keyword$DataError = exports.keywordError = void 0;
     var codegen_1 = require_codegen();
@@ -1375,10 +1392,11 @@ var require_errors = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/boolSchema.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/boolSchema.js
 var require_boolSchema = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.boolOrEmptySchema = exports.topBoolOrEmptySchema = void 0;
     var errors_1 = require_errors();
@@ -1426,10 +1444,11 @@ var require_boolSchema = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/rules.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/rules.js
 var require_rules = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/rules.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/rules.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRules = exports.isJSONType = void 0;
     var _jsonTypes = ["string", "number", "integer", "boolean", "null", "object", "array"];
@@ -1457,10 +1476,11 @@ var require_rules = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/applicability.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/applicability.js
 var require_applicability = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/applicability.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/applicability.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.shouldUseRule = exports.shouldUseGroup = exports.schemaHasRulesForType = void 0;
     function schemaHasRulesForType({ schema, self }, type) {
@@ -1480,10 +1500,11 @@ var require_applicability = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/dataType.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/dataType.js
 var require_dataType = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/dataType.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/dataType.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.reportTypeError = exports.checkDataTypes = exports.checkDataType = exports.coerceAndCheckDataType = exports.getJSONTypes = exports.getSchemaTypes = exports.DataType = void 0;
     var rules_1 = require_rules();
@@ -1664,10 +1685,11 @@ var require_dataType = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/defaults.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/defaults.js
 var require_defaults = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/defaults.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/defaults.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.assignDefaults = void 0;
     var codegen_1 = require_codegen();
@@ -1701,10 +1723,11 @@ var require_defaults = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/code.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/code.js
 var require_code2 = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/code.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/code.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateUnion = exports.validateArray = exports.usePattern = exports.callValidateCode = exports.schemaProperties = exports.allSchemaProperties = exports.noPropertyInData = exports.propertyInData = exports.isOwnProperty = exports.hasPropFunc = exports.reportMissingProp = exports.checkMissingProp = exports.checkReportMissingProp = void 0;
     var codegen_1 = require_codegen();
@@ -1834,10 +1857,11 @@ var require_code2 = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/keyword.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/keyword.js
 var require_keyword = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/keyword.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/keyword.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateKeywordUsage = exports.validSchemaType = exports.funcKeywordCode = exports.macroKeywordCode = void 0;
     var codegen_1 = require_codegen();
@@ -1952,10 +1976,11 @@ var require_keyword = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/subschema.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/subschema.js
 var require_subschema = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/subschema.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/subschema.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.extendSubschemaMode = exports.extendSubschemaData = exports.getSubschema = void 0;
     var codegen_1 = require_codegen();
@@ -2035,10 +2060,11 @@ var require_subschema = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-deep-equal/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-deep-equal/index.js
 var require_fast_deep_equal = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-deep-equal/index.js"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-deep-equal/index.js"(exports, module) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     module.exports = function equal(a, b) {
       if (a === b) return true;
       if (a && b && typeof a == "object" && typeof b == "object") {
@@ -2070,10 +2096,11 @@ var require_fast_deep_equal = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/json-schema-traverse/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/json-schema-traverse/index.js
 var require_json_schema_traverse = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/json-schema-traverse/index.js"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/json-schema-traverse/index.js"(exports, module) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     var traverse = module.exports = function(schema, opts, cb) {
       if (typeof opts == "function") {
         cb = opts;
@@ -2158,10 +2185,11 @@ var require_json_schema_traverse = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/resolve.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/resolve.js
 var require_resolve = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/resolve.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/resolve.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSchemaRefs = exports.resolveUrl = exports.normalizeId = exports._getFullPath = exports.getFullPath = exports.inlineRef = void 0;
     var util_1 = require_util();
@@ -2314,10 +2342,11 @@ var require_resolve = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/index.js
 var require_validate = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/validate/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getData = exports.KeywordCxt = exports.validateFunctionCode = void 0;
     var boolSchema_1 = require_boolSchema();
@@ -2822,10 +2851,11 @@ var require_validate = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/validation_error.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/validation_error.js
 var require_validation_error = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/validation_error.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/validation_error.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var ValidationError = class extends Error {
       constructor(errors) {
@@ -2838,10 +2868,11 @@ var require_validation_error = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/ref_error.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/ref_error.js
 var require_ref_error = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/ref_error.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/ref_error.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var resolve_1 = require_resolve();
     var MissingRefError = class extends Error {
@@ -2855,10 +2886,11 @@ var require_ref_error = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/index.js
 var require_compile = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/compile/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveSchema = exports.getCompilingSchema = exports.resolveRef = exports.compileSchema = exports.SchemaEnv = void 0;
     var codegen_1 = require_codegen();
@@ -2979,7 +3011,7 @@ var require_compile = __commonJS({
       const schOrFunc = root.refs[ref];
       if (schOrFunc)
         return schOrFunc;
-      let _sch = resolve.call(this, root, ref);
+      let _sch = resolve2.call(this, root, ref);
       if (_sch === void 0) {
         const schema = (_a3 = root.localRefs) === null || _a3 === void 0 ? void 0 : _a3[ref];
         const { schemaId } = this.opts;
@@ -3006,7 +3038,7 @@ var require_compile = __commonJS({
     function sameSchemaEnv(s1, s2) {
       return s1.schema === s2.schema && s1.root === s2.root && s1.baseId === s2.baseId;
     }
-    function resolve(root, ref) {
+    function resolve2(root, ref) {
       let sch;
       while (typeof (sch = this.refs[ref]) == "string")
         ref = sch;
@@ -3079,9 +3111,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/data.json
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/data.json
 var require_data = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/data.json"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/data.json"(exports, module) {
     module.exports = {
       $id: "https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#",
       description: "Meta-schema for $data reference (JSON AnySchema extension proposal)",
@@ -3098,10 +3130,11 @@ var require_data = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/utils.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/utils.js
 var require_utils = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/utils.js"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/utils.js"(exports, module) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     var isUUID = RegExp.prototype.test.bind(/^[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}$/iu);
     var isIPv4 = RegExp.prototype.test.bind(/^(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)$/u);
     var isHexPair = RegExp.prototype.test.bind(/^[\da-f]{2}$/iu);
@@ -3411,10 +3444,11 @@ var require_utils = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/schemes.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/schemes.js
 var require_schemes = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/schemes.js"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/lib/schemes.js"(exports, module) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     var { isUUID } = require_utils();
     var URN_REG = /([\da-z][\d\-a-z]{0,31}):((?:[\w!$'()*+,\-.:;=@]|%[\da-f]{2})+)/iu;
     var supportedSchemeNames = (
@@ -3621,10 +3655,11 @@ var require_schemes = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/index.js
 var require_fast_uri = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/index.js"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/fast-uri/index.js"(exports, module) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     var { normalizeIPv6, removeDotSegments, recomposeAuthority, normalizePercentEncoding, normalizePathEncoding, escapePreservingEscapes, reescapeHostDelimiters, isIPv4, nonSimpleDomain } = require_utils();
     var { SCHEMES, getSchemeHandler } = require_schemes();
     function normalize(uri, options) {
@@ -3637,7 +3672,7 @@ var require_fast_uri = __commonJS({
       }
       return uri;
     }
-    function resolve(baseURI, relativeURI, options) {
+    function resolve2(baseURI, relativeURI, options) {
       const schemelessOptions = options ? Object.assign({ scheme: "null" }, options) : { scheme: "null" };
       const resolved = resolveComponent(parse3(baseURI, schemelessOptions), parse3(relativeURI, schemelessOptions), schemelessOptions, true);
       schemelessOptions.skipEscape = true;
@@ -3895,7 +3930,7 @@ var require_fast_uri = __commonJS({
     var fastUri = {
       SCHEMES,
       normalize,
-      resolve,
+      resolve: resolve2,
       resolveComponent,
       equal,
       serialize,
@@ -3907,10 +3942,11 @@ var require_fast_uri = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/uri.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/uri.js
 var require_uri = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/uri.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/uri.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var uri = require_fast_uri();
     uri.code = 'require("ajv/dist/runtime/uri").default';
@@ -3918,10 +3954,11 @@ var require_uri = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/core.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/core.js
 var require_core = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/core.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/core.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CodeGen = exports.Name = exports.nil = exports.stringify = exports.str = exports._ = exports.KeywordCxt = void 0;
     var validate_1 = require_validate();
@@ -4529,10 +4566,11 @@ var require_core = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/id.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/id.js
 var require_id = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/id.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/id.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var def = {
       keyword: "id",
@@ -4544,10 +4582,11 @@ var require_id = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/ref.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/ref.js
 var require_ref = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/ref.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/ref.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.callRef = exports.getValidate = void 0;
     var ref_error_1 = require_ref_error();
@@ -4666,10 +4705,11 @@ var require_ref = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/index.js
 var require_core2 = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/core/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var id_1 = require_id();
     var ref_1 = require_ref();
@@ -4687,10 +4727,11 @@ var require_core2 = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
 var require_limitNumber = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var ops = codegen_1.operators;
@@ -4719,10 +4760,11 @@ var require_limitNumber = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
 var require_multipleOf = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var error2 = {
@@ -4747,10 +4789,11 @@ var require_multipleOf = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/ucs2length.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/ucs2length.js
 var require_ucs2length = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/ucs2length.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/ucs2length.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     function ucs2length(str) {
       const len = str.length;
@@ -4773,10 +4816,11 @@ var require_ucs2length = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitLength.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitLength.js
 var require_limitLength = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -4805,10 +4849,11 @@ var require_limitLength = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/pattern.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/pattern.js
 var require_pattern = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
     var util_1 = require_util();
@@ -4842,10 +4887,11 @@ var require_pattern = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
 var require_limitProperties = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var error2 = {
@@ -4871,10 +4917,11 @@ var require_limitProperties = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/required.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/required.js
 var require_required = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/required.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/required.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
     var codegen_1 = require_codegen();
@@ -4953,10 +5000,11 @@ var require_required = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitItems.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitItems.js
 var require_limitItems = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var error2 = {
@@ -4982,10 +5030,11 @@ var require_limitItems = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/equal.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/equal.js
 var require_equal = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/equal.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/runtime/equal.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var equal = require_fast_deep_equal();
     equal.code = 'require("ajv/dist/runtime/equal").default';
@@ -4993,10 +5042,11 @@ var require_equal = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
 var require_uniqueItems = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var dataType_1 = require_dataType();
     var codegen_1 = require_codegen();
@@ -5060,10 +5110,11 @@ var require_uniqueItems = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/const.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/const.js
 var require_const = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/const.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/const.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -5089,10 +5140,11 @@ var require_const = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/enum.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/enum.js
 var require_enum = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -5138,10 +5190,11 @@ var require_enum = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/index.js
 var require_validation = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/validation/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var limitNumber_1 = require_limitNumber();
     var multipleOf_1 = require_multipleOf();
@@ -5176,10 +5229,11 @@ var require_validation = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
 var require_additionalItems = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateAdditionalItems = void 0;
     var codegen_1 = require_codegen();
@@ -5229,10 +5283,11 @@ var require_additionalItems = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items.js
 var require_items = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateTuple = void 0;
     var codegen_1 = require_codegen();
@@ -5286,10 +5341,11 @@ var require_items = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
 var require_prefixItems = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var items_1 = require_items();
     var def = {
@@ -5303,10 +5359,11 @@ var require_prefixItems = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items2020.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items2020.js
 var require_items2020 = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -5338,10 +5395,11 @@ var require_items2020 = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/contains.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/contains.js
 var require_contains = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -5432,10 +5490,11 @@ var require_contains = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
 var require_dependencies = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateSchemaDeps = exports.validatePropertyDeps = exports.error = void 0;
     var codegen_1 = require_codegen();
@@ -5526,10 +5585,11 @@ var require_dependencies = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
 var require_propertyNames = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -5569,10 +5629,11 @@ var require_propertyNames = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
 var require_additionalProperties = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
     var codegen_1 = require_codegen();
@@ -5675,10 +5736,11 @@ var require_additionalProperties = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/properties.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/properties.js
 var require_properties = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var validate_1 = require_validate();
     var code_1 = require_code2();
@@ -5733,10 +5795,11 @@ var require_properties = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
 var require_patternProperties = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
     var codegen_1 = require_codegen();
@@ -5807,10 +5870,11 @@ var require_patternProperties = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/not.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/not.js
 var require_not = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
     var def = {
@@ -5838,10 +5902,11 @@ var require_not = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
 var require_anyOf = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
     var def = {
@@ -5855,10 +5920,11 @@ var require_anyOf = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
 var require_oneOf = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -5913,10 +5979,11 @@ var require_oneOf = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/allOf.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/allOf.js
 var require_allOf = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
     var def = {
@@ -5940,10 +6007,11 @@ var require_allOf = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/if.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/if.js
 var require_if = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var util_1 = require_util();
@@ -6009,10 +6077,11 @@ var require_if = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
 var require_thenElse = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
     var def = {
@@ -6027,10 +6096,11 @@ var require_thenElse = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/index.js
 var require_applicator = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var additionalItems_1 = require_additionalItems();
     var prefixItems_1 = require_prefixItems();
@@ -6075,10 +6145,11 @@ var require_applicator = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/format.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/format.js
 var require_format = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/format.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/format.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var error2 = {
@@ -6165,10 +6236,11 @@ var require_format = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/index.js
 var require_format2 = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/format/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var format_1 = require_format();
     var format = [format_1.default];
@@ -6176,10 +6248,11 @@ var require_format2 = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/metadata.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/metadata.js
 var require_metadata = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/metadata.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/metadata.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.contentVocabulary = exports.metadataVocabulary = void 0;
     exports.metadataVocabulary = [
@@ -6199,10 +6272,11 @@ var require_metadata = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/draft7.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/draft7.js
 var require_draft7 = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/draft7.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/draft7.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var core_1 = require_core2();
     var validation_1 = require_validation();
@@ -6221,10 +6295,11 @@ var require_draft7 = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/types.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/types.js
 var require_types = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DiscrError = void 0;
     var DiscrError;
@@ -6235,10 +6310,11 @@ var require_types = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/index.js
 var require_discriminator = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
     var types_1 = require_types();
@@ -6340,9 +6416,9 @@ var require_discriminator = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/json-schema-draft-07.json
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/json-schema-draft-07.json
 var require_json_schema_draft_07 = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports, module) {
     module.exports = {
       $schema: "http://json-schema.org/draft-07/schema#",
       $id: "http://json-schema.org/draft-07/schema#",
@@ -6497,10 +6573,11 @@ var require_json_schema_draft_07 = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/ajv.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/ajv.js
 var require_ajv = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/ajv.js"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv/dist/ajv.js"(exports, module) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MissingRefError = exports.ValidationError = exports.CodeGen = exports.Name = exports.nil = exports.stringify = exports.str = exports._ = exports.KeywordCxt = exports.Ajv = void 0;
     var core_1 = require_core();
@@ -6567,10 +6644,11 @@ var require_ajv = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/formats.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/formats.js
 var require_formats = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/formats.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/formats.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.formatNames = exports.fastFormats = exports.fullFormats = void 0;
     function fmtDef(validate, compare) {
@@ -6770,10 +6848,11 @@ var require_formats = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/limit.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/limit.js
 var require_limit = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/limit.js"(exports) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/limit.js"(exports) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.formatLimitDefinition = void 0;
     var ajv_1 = require_ajv();
@@ -6842,10 +6921,11 @@ var require_limit = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/index.js
 var require_dist = __commonJS({
-  "../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/index.js"(exports, module) {
+  "../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/ajv-formats/dist/index.js"(exports, module) {
     "use strict";
+    init_define_OPENCODE_BUILD_INFO();
     Object.defineProperty(exports, "__esModule", { value: true });
     var formats_1 = require_formats();
     var limit_1 = require_limit();
@@ -6884,7 +6964,32 @@ var require_dist = __commonJS({
   }
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/core.js
+// src/plugin-entry.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// src/shim.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../packages/network-adapter/src/index.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../packages/network-adapter/src/wire/mcp-transport.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/index.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/index.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/core.js
+init_define_OPENCODE_BUILD_INFO();
 var _a;
 var NEVER = /* @__PURE__ */ Object.freeze({
   status: "aborted"
@@ -6960,7 +7065,13 @@ function config(newConfig) {
   return globalConfig;
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/util.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/parse.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/errors.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/util.js
 var util_exports = {};
 __export(util_exports, {
   BIGINT_FORMAT_RANGES: () => BIGINT_FORMAT_RANGES,
@@ -7027,6 +7138,7 @@ __export(util_exports, {
   uint8ArrayToHex: () => uint8ArrayToHex,
   unwrapMessage: () => unwrapMessage
 });
+init_define_OPENCODE_BUILD_INFO();
 function assertEqual(val) {
   return val;
 }
@@ -7656,7 +7768,7 @@ var Class = class {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/errors.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/errors.js
 var initializer = (inst, def) => {
   inst.name = "$ZodError";
   Object.defineProperty(inst, "_zod", {
@@ -7725,7 +7837,7 @@ function formatError(error2, mapper = (issue2) => issue2.message) {
   return fieldErrors;
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/parse.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/parse.js
 var _parse = (_Err) => (schema, value, _ctx, _params) => {
   const ctx = _ctx ? { ..._ctx, async: false } : { async: false };
   const result = schema._zod.run({ value, issues: [] }, ctx);
@@ -7803,7 +7915,14 @@ var _safeDecodeAsync = (_Err) => async (schema, value, _ctx) => {
   return _safeParseAsync(_Err)(schema, value, _ctx);
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/regexes.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/schemas.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/checks.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/regexes.js
+init_define_OPENCODE_BUILD_INFO();
 var cuid = /^[cC][0-9a-z]{6,}$/;
 var cuid2 = /^[0-9a-z]+$/;
 var ulid = /^[0-9A-HJKMNP-TV-Za-hjkmnp-tv-z]{26}$/;
@@ -7862,7 +7981,7 @@ var _null = /^null$/i;
 var lowercase = /^[^A-Z]*$/;
 var uppercase = /^[^a-z]*$/;
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/checks.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/checks.js
 var $ZodCheck = /* @__PURE__ */ $constructor("$ZodCheck", (inst, def) => {
   var _a3;
   inst._zod ?? (inst._zod = {});
@@ -8252,7 +8371,8 @@ var $ZodCheckOverwrite = /* @__PURE__ */ $constructor("$ZodCheckOverwrite", (ins
   };
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/doc.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/doc.js
+init_define_OPENCODE_BUILD_INFO();
 var Doc = class {
   constructor(args = []) {
     this.content = [];
@@ -8288,14 +8408,15 @@ var Doc = class {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/versions.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/versions.js
+init_define_OPENCODE_BUILD_INFO();
 var version = {
   major: 4,
   minor: 4,
   patch: 3
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/schemas.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/schemas.js
 var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
   var _a3;
   inst ?? (inst = {});
@@ -9823,7 +9944,8 @@ function handleRefineResult(result, payload, input, inst) {
   }
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/locales/en.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/locales/en.js
+init_define_OPENCODE_BUILD_INFO();
 var error = () => {
   const Sizable = {
     string: { unit: "characters", verb: "to have" },
@@ -9936,7 +10058,8 @@ function en_default() {
   };
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/registries.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/registries.js
+init_define_OPENCODE_BUILD_INFO();
 var _a2;
 var $ZodRegistry = class {
   constructor() {
@@ -9984,7 +10107,8 @@ function registry() {
 (_a2 = globalThis).__zod_globalRegistry ?? (_a2.__zod_globalRegistry = registry());
 var globalRegistry = globalThis.__zod_globalRegistry;
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/api.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/api.js
+init_define_OPENCODE_BUILD_INFO();
 // @__NO_SIDE_EFFECTS__
 function _string(Class2, params) {
   return new Class2({
@@ -10559,7 +10683,8 @@ function _check(fn, params) {
   return ch;
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/to-json-schema.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/to-json-schema.js
+init_define_OPENCODE_BUILD_INFO();
 function initializeContext(params) {
   let target = params?.target ?? "draft-2020-12";
   if (target === "draft-4")
@@ -10918,7 +11043,8 @@ var createStandardJSONSchemaMethod = (schema, io, processors = {}) => (params) =
   return finalize(ctx, schema);
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/json-schema-processors.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/core/json-schema-processors.js
+init_define_OPENCODE_BUILD_INFO();
 var formatMap = {
   guid: "uuid",
   url: "uri",
@@ -11263,7 +11389,10 @@ var optionalProcessor = (schema, ctx, _json, params) => {
   seen.ref = def.innerType;
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/mini/parse.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
 function isZ4Schema(s) {
   const schema = s;
   return !!schema._zod;
@@ -11326,7 +11455,19 @@ function getLiteralValue(schema) {
   return void 0;
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/iso.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/external.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/schemas.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/checks.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/iso.js
 var iso_exports = {};
 __export(iso_exports, {
   ZodISODate: () => ZodISODate,
@@ -11338,6 +11479,7 @@ __export(iso_exports, {
   duration: () => duration2,
   time: () => time2
 });
+init_define_OPENCODE_BUILD_INFO();
 var ZodISODateTime = /* @__PURE__ */ $constructor("ZodISODateTime", (inst, def) => {
   $ZodISODateTime.init(inst, def);
   ZodStringFormat.init(inst, def);
@@ -11367,7 +11509,11 @@ function duration2(params) {
   return _isoDuration(ZodISODuration, params);
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/errors.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/parse.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/errors.js
+init_define_OPENCODE_BUILD_INFO();
 var initializer2 = (inst, issues) => {
   $ZodError.init(inst, issues);
   inst.name = "ZodError";
@@ -11406,7 +11552,7 @@ var ZodRealError = /* @__PURE__ */ $constructor("ZodError", initializer2, {
   Parent: Error
 });
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/parse.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/parse.js
 var parse2 = /* @__PURE__ */ _parse(ZodRealError);
 var parseAsync2 = /* @__PURE__ */ _parseAsync(ZodRealError);
 var safeParse3 = /* @__PURE__ */ _safeParse(ZodRealError);
@@ -11420,7 +11566,7 @@ var safeDecode2 = /* @__PURE__ */ _safeDecode(ZodRealError);
 var safeEncodeAsync2 = /* @__PURE__ */ _safeEncodeAsync(ZodRealError);
 var safeDecodeAsync2 = /* @__PURE__ */ _safeDecodeAsync(ZodRealError);
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/schemas.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/schemas.js
 var _installedGroups = /* @__PURE__ */ new WeakMap();
 function _installLazyMethods(inst, group, methods) {
   const proto = Object.getPrototypeOf(inst);
@@ -12305,7 +12451,8 @@ function preprocess(fn, schema) {
   });
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/compat.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/compat.js
+init_define_OPENCODE_BUILD_INFO();
 var ZodIssueCode = {
   invalid_type: "invalid_type",
   too_big: "too_big",
@@ -12323,7 +12470,7 @@ var ZodFirstPartyTypeKind;
 /* @__PURE__ */ (function(ZodFirstPartyTypeKind2) {
 })(ZodFirstPartyTypeKind || (ZodFirstPartyTypeKind = {}));
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/coerce.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/coerce.js
 var coerce_exports = {};
 __export(coerce_exports, {
   bigint: () => bigint2,
@@ -12332,6 +12479,7 @@ __export(coerce_exports, {
   number: () => number3,
   string: () => string3
 });
+init_define_OPENCODE_BUILD_INFO();
 function string3(params) {
   return _coercedString(ZodString, params);
 }
@@ -12348,10 +12496,10 @@ function date3(params) {
   return _coercedDate(ZodDate, params);
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/external.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod/v4/classic/external.js
 config(en_default());
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
 var LATEST_PROTOCOL_VERSION = "2025-11-25";
 var DEFAULT_NEGOTIATED_PROTOCOL_VERSION = "2025-03-26";
 var SUPPORTED_PROTOCOL_VERSIONS = [LATEST_PROTOCOL_VERSION, "2025-06-18", "2025-03-26", "2024-11-05", "2024-10-07"];
@@ -13873,15 +14021,134 @@ var UrlElicitationRequiredError = class extends McpError {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
+init_define_OPENCODE_BUILD_INFO();
 function isTerminal(status) {
   return status === "completed" || status === "failed" || status === "cancelled";
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/string.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/index.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/Options.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/Refs.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/errorMessages.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/getRelativePath.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parseDef.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/selectParser.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/any.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/array.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/bigint.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/boolean.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/branded.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/catch.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/date.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/default.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/effects.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/enum.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/intersection.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/literal.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/map.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/record.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/string.js
+init_define_OPENCODE_BUILD_INFO();
 var ALPHA_NUMERIC = new Set("ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz0123456789");
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/nativeEnum.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/never.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/null.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/nullable.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/union.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/number.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/object.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/optional.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/pipeline.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/promise.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/set.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/tuple.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/undefined.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/unknown.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parsers/readonly.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/parseTypes.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/zod-to-json-schema/dist/esm/zodToJsonSchema.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
 function getMethodLiteral(schema) {
   const shape = getObjectShape(schema);
   const methodSchema = shape?.method;
@@ -13902,7 +14169,7 @@ function parseWithCompat(schema, data) {
   return result.data;
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
 var DEFAULT_REQUEST_TIMEOUT_MSEC = 6e4;
 var Protocol = class {
   constructor(_options) {
@@ -14402,7 +14669,7 @@ var Protocol = class {
           return;
         }
         const pollInterval = task2.pollInterval ?? this._options?.defaultTaskPollInterval ?? 1e3;
-        await new Promise((resolve) => setTimeout(resolve, pollInterval));
+        await new Promise((resolve2) => setTimeout(resolve2, pollInterval));
         options?.signal?.throwIfAborted();
       }
     } catch (error2) {
@@ -14419,7 +14686,7 @@ var Protocol = class {
    */
   request(request, resultSchema, options) {
     const { relatedRequestId, resumptionToken, onresumptiontoken, task, relatedTask } = options ?? {};
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve2, reject) => {
       const earlyReject = (error2) => {
         reject(error2);
       };
@@ -14497,7 +14764,7 @@ var Protocol = class {
           if (!parseResult.success) {
             reject(parseResult.error);
           } else {
-            resolve(parseResult.data);
+            resolve2(parseResult.data);
           }
         } catch (error2) {
           reject(error2);
@@ -14758,12 +15025,12 @@ var Protocol = class {
       }
     } catch {
     }
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve2, reject) => {
       if (signal.aborted) {
         reject(new McpError(ErrorCode.InvalidRequest, "Request cancelled"));
         return;
       }
-      const timeoutId = setTimeout(resolve, interval);
+      const timeoutId = setTimeout(resolve2, interval);
       signal.addEventListener("abort", () => {
         clearTimeout(timeoutId);
         reject(new McpError(ErrorCode.InvalidRequest, "Request cancelled"));
@@ -14856,7 +15123,8 @@ function mergeCapabilities(base, additional) {
   return result;
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
+init_define_OPENCODE_BUILD_INFO();
 var import_ajv = __toESM(require_ajv(), 1);
 var import_ajv_formats = __toESM(require_dist(), 1);
 function createDefaultAjvInstance() {
@@ -14924,7 +15192,8 @@ var AjvJsonSchemaValidator = class {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/client.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/client.js
+init_define_OPENCODE_BUILD_INFO();
 var ExperimentalClientTasks = class {
   constructor(_client) {
     this._client = _client;
@@ -15078,7 +15347,8 @@ var ExperimentalClientTasks = class {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
+init_define_OPENCODE_BUILD_INFO();
 function assertToolsCallTaskCapability(requests, method, entityName) {
   if (!requests) {
     throw new Error(`${entityName} does not support task creation (required for ${method})`);
@@ -15113,7 +15383,7 @@ function assertClientRequestTaskCapability(requests, method, entityName) {
   }
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/index.js
 function applyElicitationDefaults(schema, data) {
   if (!schema || data === null || typeof data !== "object")
     return;
@@ -15633,7 +15903,11 @@ var Client = class extends Protocol {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/transport.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/streamableHttp.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/transport.js
+init_define_OPENCODE_BUILD_INFO();
 function normalizeHeaders(headers) {
   if (!headers)
     return {};
@@ -15660,7 +15934,11 @@ function createFetchWithInit(baseFetch = fetch, baseInit) {
   };
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/pkce-challenge/dist/index.node.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/auth.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/pkce-challenge/dist/index.node.js
+init_define_OPENCODE_BUILD_INFO();
 var crypto2;
 crypto2 = globalThis.crypto?.webcrypto ?? // Node.js [18-16] REPL
 globalThis.crypto ?? // Node.js >18
@@ -15703,7 +15981,8 @@ async function pkceChallenge(length) {
   };
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/auth.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/auth.js
+init_define_OPENCODE_BUILD_INFO();
 var SafeUrlSchema = url().superRefine((val, ctx) => {
   if (!URL.canParse(val)) {
     ctx.addIssue({
@@ -15847,7 +16126,8 @@ var OAuthTokenRevocationRequestSchema = object2({
   token_type_hint: string2().optional()
 }).strip();
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/auth-utils.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/auth-utils.js
+init_define_OPENCODE_BUILD_INFO();
 function resourceUrlFromServerUrl(url2) {
   const resourceURL = typeof url2 === "string" ? new URL(url2) : new URL(url2.href);
   resourceURL.hash = "";
@@ -15867,7 +16147,8 @@ function checkResourceAllowed({ requestedResource, configuredResource }) {
   return requestedPath.startsWith(configuredPath);
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/auth/errors.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/auth/errors.js
+init_define_OPENCODE_BUILD_INFO();
 var OAuthError = class extends Error {
   constructor(message, errorUri) {
     super(message);
@@ -15962,7 +16243,7 @@ var OAUTH_ERRORS = {
   [InvalidTargetError.errorCode]: InvalidTargetError
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/auth.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/auth.js
 var UnauthorizedError = class extends Error {
   constructor(message) {
     super(message ?? "Unauthorized");
@@ -16503,7 +16784,11 @@ async function registerClient(authorizationServerUrl, { metadata, clientMetadata
   return OAuthClientInformationFullSchema.parse(await response.json());
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/eventsource-parser/dist/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/eventsource-parser/dist/stream.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/eventsource-parser/dist/index.js
+init_define_OPENCODE_BUILD_INFO();
 var ParseError = class extends Error {
   constructor(message, options) {
     super(message), this.name = "ParseError", this.type = options.type, this.field = options.field, this.value = options.value, this.line = options.line;
@@ -16668,7 +16953,7 @@ function isEventPrefix(chunk, i, firstCharCode) {
   return firstCharCode === 101 && chunk.charCodeAt(i + 1) === 118 && chunk.charCodeAt(i + 2) === 101 && chunk.charCodeAt(i + 3) === 110 && chunk.charCodeAt(i + 4) === 116 && chunk.charCodeAt(i + 5) === 58;
 }
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/eventsource-parser/dist/stream.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/eventsource-parser/dist/stream.js
 var EventSourceParserStream = class extends TransformStream {
   constructor({ onError, onRetry, onComment } = {}) {
     let parser;
@@ -16692,7 +16977,7 @@ var EventSourceParserStream = class extends TransformStream {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/streamableHttp.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/client/streamableHttp.js
 var DEFAULT_STREAMABLE_HTTP_RECONNECTION_OPTIONS = {
   initialReconnectionDelay: 1e3,
   maxReconnectionDelay: 3e4,
@@ -17089,6 +17374,7 @@ var StreamableHTTPClientTransport = class {
 };
 
 // ../../packages/network-adapter/src/logger.ts
+init_define_OPENCODE_BUILD_INFO();
 function formatValue(v) {
   if (Array.isArray(v)) return `[${v.map(formatValue).join(",")}]`;
   if (v === void 0) return "undef";
@@ -17398,7 +17684,7 @@ var McpTransport = class {
       } catch {
       }
     }
-    await new Promise((resolve) => setTimeout(resolve, 1e3));
+    await new Promise((resolve2) => setTimeout(resolve2, 1e3));
   }
   /**
    * Wire-level reconnect loop. Entered on any wire-death signal
@@ -17562,7 +17848,11 @@ var McpTransport = class {
   }
 };
 
+// ../../packages/network-adapter/src/kernel/mcp-agent-client.ts
+init_define_OPENCODE_BUILD_INFO();
+
 // ../../packages/network-adapter/src/kernel/event-router.ts
+init_define_OPENCODE_BUILD_INFO();
 var ENGINEER_ACTIONABLE = /* @__PURE__ */ new Set([
   "thread_message",
   "clarification_answered",
@@ -17618,11 +17908,10 @@ function classifyEvent(event, role) {
     if (ENGINEER_ACTIONABLE.has(event)) return "actionable";
     if (ENGINEER_INFORMATIONAL.has(event)) return "informational";
     return "unhandled";
-  } else {
-    if (ARCHITECT_ACTIONABLE.has(event)) return "actionable";
-    if (ARCHITECT_INFORMATIONAL.has(event)) return "informational";
-    return "unhandled";
   }
+  if (ARCHITECT_ACTIONABLE.has(event)) return "actionable";
+  if (ARCHITECT_INFORMATIONAL.has(event)) return "informational";
+  return "unhandled";
 }
 var PULSE_KINDS = /* @__PURE__ */ new Set([
   "status_check",
@@ -17682,6 +17971,7 @@ function createDedupFilter(maxCache = 100) {
 }
 
 // ../../packages/network-adapter/src/kernel/handshake.ts
+init_define_OPENCODE_BUILD_INFO();
 import { hostname, platform as osPlatform } from "node:os";
 var FATAL_CODES = /* @__PURE__ */ new Set([
   "agent_thrashing_detected",
@@ -17690,11 +17980,17 @@ var FATAL_CODES = /* @__PURE__ */ new Set([
 function parseHandshakeError(result) {
   try {
     const r = result;
-    if (!r || r.isError !== true || !Array.isArray(r.content) || !r.content[0]?.text) {
-      return null;
+    if (!r || typeof r !== "object") return null;
+    let body;
+    let envelopeError = false;
+    if (Array.isArray(r.content) && r.content[0]?.text) {
+      body = JSON.parse(r.content[0].text);
+      envelopeError = r.isError === true;
+    } else {
+      body = r;
     }
-    const body = JSON.parse(r.content[0].text);
-    if (body && typeof body.code === "string" && FATAL_CODES.has(body.code)) {
+    const isFailure = envelopeError || body.ok === false;
+    if (isFailure && typeof body.code === "string" && FATAL_CODES.has(body.code)) {
       return { code: body.code, message: String(body.message ?? "") };
     }
   } catch {
@@ -17731,6 +18027,17 @@ function resolveClientName(raw, proxyName) {
 function resolveClientVersion(raw, proxyVersion) {
   if (!raw || raw === "0.0.0") return proxyVersion;
   return raw;
+}
+function readRequiredAgentName(log2) {
+  const agentName = process.env.OIS_AGENT_NAME?.trim();
+  if (!agentName) {
+    log2(
+      "[Handshake] FATAL: OIS_AGENT_NAME env var required (idea-251 D-prime). Set in ~/.config/apnex-agents/{name}.env."
+    );
+    return null;
+  }
+  log2(`[Handshake] OIS_AGENT_NAME=${agentName}`);
+  return agentName;
 }
 function buildHandshakePayload(config3) {
   const payload = {
@@ -17785,7 +18092,7 @@ async function performHandshake(ctx) {
       `[Handshake] FATAL ${fatal.code}: ${fatal.message}`
     );
     if (ctx.onFatalHalt) ctx.onFatalHalt(fatal);
-    return { response: null, epoch: ctx.previousEpoch };
+    return { response: null, epoch: ctx.previousEpoch, fatal: true };
   }
   const response = parseHandshakeResponse(result);
   if (!response) {
@@ -17845,6 +18152,7 @@ async function performHandshake(ctx) {
 }
 
 // ../../packages/network-adapter/src/hub-error.ts
+init_define_OPENCODE_BUILD_INFO();
 var HubReturnedError = class extends Error {
   name = "HubReturnedError";
   /** Original envelope `{ isError, content }` from the transport. */
@@ -17876,13 +18184,21 @@ function extractErrorMessage(envelope) {
   }
 }
 
+// ../../packages/cognitive-layer/src/index.ts
+init_define_OPENCODE_BUILD_INFO();
+
 // ../../packages/cognitive-layer/src/contract.ts
+init_define_OPENCODE_BUILD_INFO();
 var INTERNAL_CALL_TAG = "internal";
 function isInternalCall(tags) {
   return tags[INTERNAL_CALL_TAG] === "true";
 }
 
+// ../../packages/cognitive-layer/src/pipeline.ts
+init_define_OPENCODE_BUILD_INFO();
+
 // ../../packages/cognitive-layer/src/middlewares/telemetry.ts
+init_define_OPENCODE_BUILD_INFO();
 var DEFAULT_MAX_QUEUE_DEPTH = 1e3;
 var DEFAULT_OVERFLOW_LOG_INTERVAL_MS = 6e4;
 function detectQueryShape(args) {
@@ -18133,6 +18449,7 @@ var CognitiveTelemetry = class {
 };
 
 // ../../packages/cognitive-layer/src/middlewares/circuit-breaker.ts
+init_define_OPENCODE_BUILD_INFO();
 var HubUnavailableError = class extends Error {
   name = "HubUnavailableError";
   retryAfterMs;
@@ -18277,6 +18594,7 @@ var CircuitBreaker = class {
 };
 
 // ../../packages/cognitive-layer/src/middlewares/write-call-dedup.ts
+init_define_OPENCODE_BUILD_INFO();
 var DedupTimeoutError = class extends Error {
   name = "DedupTimeoutError";
   tool;
@@ -18387,7 +18705,7 @@ var WriteCallDedup = class {
   }
   awaitWithTimeout(tool, entry) {
     if (this.maxInflightMs <= 0) return entry.promise;
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve2, reject) => {
       let timedOut = false;
       const timer = this.setTimerFn(() => {
         timedOut = true;
@@ -18397,7 +18715,7 @@ var WriteCallDedup = class {
         (v) => {
           if (timedOut) return;
           this.clearTimerFn(timer);
-          resolve(v);
+          resolve2(v);
         },
         (err) => {
           if (timedOut) return;
@@ -18418,6 +18736,7 @@ var WriteCallDedup = class {
 };
 
 // ../../packages/cognitive-layer/src/middlewares/tool-result-cache.ts
+init_define_OPENCODE_BUILD_INFO();
 var FlushAllOnWriteStrategy = class {
   isWriteTool;
   constructor(opts = {}) {
@@ -18549,6 +18868,7 @@ var ToolResultCache = class {
 };
 
 // ../../packages/cognitive-layer/src/middlewares/tool-description-enricher.ts
+init_define_OPENCODE_BUILD_INFO();
 function defaultInferHints(toolName) {
   if (toolName.startsWith("get_") || toolName.startsWith("list_")) {
     return { cachedMs: 3e4, idempotent: true, parallel: true };
@@ -18616,6 +18936,7 @@ var ToolDescriptionEnricher = class {
 };
 
 // ../../packages/cognitive-layer/src/middlewares/error-normalizer.ts
+init_define_OPENCODE_BUILD_INFO();
 var NormalizedError = class extends Error {
   rawError;
   rule;
@@ -18820,6 +19141,7 @@ var ErrorNormalizer = class {
 };
 
 // ../../packages/cognitive-layer/src/middlewares/response-summarizer.ts
+init_define_OPENCODE_BUILD_INFO();
 var DEFAULT_MAX_ITEMS = 10;
 var DEFAULT_MAX_BYTES = 2e3;
 function defaultShouldSummarize(tool, result, maxBytes, maxItems) {
@@ -19007,6 +19329,7 @@ var CognitivePipeline = class _CognitivePipeline {
 };
 
 // ../../packages/network-adapter/src/kernel/state-sync.ts
+init_define_OPENCODE_BUILD_INFO();
 async function performStateSync(ctx) {
   const log2 = normalizeToILogger(ctx.log, "StateSync");
   log2.log("agent.sync.start", void 0, "[StateSync] Starting state sync...");
@@ -19467,6 +19790,14 @@ var McpAgentClient = class {
       onFatalHalt: handshake.onFatalHalt
     });
     this.totalHandshakes++;
+    if (result.fatal) {
+      this.log.log(
+        "agent.handshake.registration_rejected",
+        { role: this.cfg.role },
+        `[Handshake] REGISTRATION REJECTED (fatal) for role=${this.cfg.role} \u2014 HALTING, not degrading to streaming. Check role/identity config.`
+      );
+      throw new Error(`register_role rejected (fatal) for role=${this.cfg.role}: handshake halted`);
+    }
     if (result.response) {
       this._lastEpoch = result.epoch;
       this._sessionEpoch = result.response.sessionEpoch;
@@ -19563,9 +19894,198 @@ var McpAgentClient = class {
   }
 };
 
+// ../../packages/network-adapter/src/kernel/adapter-config.ts
+init_define_OPENCODE_BUILD_INFO();
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+function parseLabels(raw, source, warn = () => {
+}) {
+  if (!raw) return void 0;
+  try {
+    const parsed = JSON.parse(raw);
+    if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+      const out = {};
+      for (const [k, v] of Object.entries(parsed)) {
+        if (typeof v === "string") out[k] = v;
+      }
+      return Object.keys(out).length > 0 ? out : void 0;
+    }
+  } catch (err) {
+    warn(`WARNING: Failed to parse labels from ${source}: ${err}`);
+  }
+  return void 0;
+}
+function loadConfig(opts) {
+  const { directory, defaults = {}, warn = () => {
+  }, readAutoPrompt = false } = opts;
+  const cfg = {
+    hubUrl: defaults.hubUrl ?? "",
+    hubToken: defaults.hubToken ?? "",
+    role: defaults.role ?? "engineer"
+  };
+  if (defaults.labels) cfg.labels = defaults.labels;
+  if (defaults.autoPrompt !== void 0) cfg.autoPrompt = defaults.autoPrompt;
+  try {
+    const raw = JSON.parse(
+      readFileSync(join(directory, ".ois", "adapter-config.json"), "utf-8")
+    );
+    if (typeof raw.hubUrl === "string") cfg.hubUrl = raw.hubUrl;
+    if (typeof raw.hubToken === "string") cfg.hubToken = raw.hubToken;
+    if (typeof raw.role === "string") cfg.role = raw.role;
+    if (raw.labels && typeof raw.labels === "object") {
+      cfg.labels = raw.labels;
+    }
+    if (readAutoPrompt && typeof raw.autoPrompt === "boolean") cfg.autoPrompt = raw.autoPrompt;
+  } catch (err) {
+    if (err?.code !== "ENOENT") {
+      warn(`WARNING: Failed to read/parse ${join(directory, ".ois", "adapter-config.json")}: ${err}`);
+    }
+  }
+  if (process.env.OIS_HUB_URL) cfg.hubUrl = process.env.OIS_HUB_URL;
+  if (process.env.OIS_HUB_TOKEN) cfg.hubToken = process.env.OIS_HUB_TOKEN;
+  if (process.env.OIS_HUB_ROLE) cfg.role = process.env.OIS_HUB_ROLE;
+  if (readAutoPrompt && process.env.HUB_PLUGIN_AUTO_PROMPT) {
+    cfg.autoPrompt = process.env.HUB_PLUGIN_AUTO_PROMPT.toLowerCase() !== "false";
+  }
+  const envLabels = parseLabels(process.env.OIS_HUB_LABELS, "OIS_HUB_LABELS env var", warn);
+  if (envLabels) cfg.labels = envLabels;
+  return cfg;
+}
+
+// ../../packages/network-adapter/src/kernel/build-identity.ts
+init_define_OPENCODE_BUILD_INFO();
+import { readFileSync as readFileSync2 } from "node:fs";
+function readPackageVersion(pkgJsonPath, fallback) {
+  try {
+    const raw = JSON.parse(readFileSync2(pkgJsonPath, "utf-8"));
+    return typeof raw.version === "string" ? raw.version : fallback;
+  } catch {
+    return fallback;
+  }
+}
+var UNKNOWN_BUILD_INFO = {
+  commitSha: "unknown",
+  dirty: false,
+  buildTime: null,
+  branch: "unknown"
+};
+
+// ../../packages/network-adapter/src/observability.ts
+init_define_OPENCODE_BUILD_INFO();
+var REDACT_KEYS = /* @__PURE__ */ new Set([
+  "hubtoken",
+  "token",
+  "authorization",
+  "bearer",
+  "apikey",
+  "api_key",
+  "secret",
+  "password"
+]);
+function redactFields(fields) {
+  const out = {};
+  for (const k of Object.keys(fields)) {
+    out[k] = REDACT_KEYS.has(k.toLowerCase()) ? "<redacted>" : fields[k];
+  }
+  return out;
+}
+var LOG_LEVELS = ["DEBUG", "INFO", "WARN", "ERROR"];
+function shouldEmitLevel(eventLevel, threshold) {
+  if (!eventLevel) return true;
+  const idx = LOG_LEVELS.indexOf(eventLevel.toUpperCase());
+  if (idx < 0) return true;
+  const thresholdIdx = LOG_LEVELS.indexOf(threshold);
+  return idx >= thresholdIdx;
+}
+
+// ../../packages/network-adapter/src/file-logger.ts
+init_define_OPENCODE_BUILD_INFO();
+import { appendFileSync, mkdirSync, renameSync, statSync } from "node:fs";
+import { dirname } from "node:path";
+function ensureDir(path) {
+  try {
+    mkdirSync(dirname(path), { recursive: true });
+  } catch {
+  }
+}
+function rotateIfNeeded(file, rotateBytes) {
+  try {
+    const stat = statSync(file);
+    if (stat.size > rotateBytes) {
+      renameSync(file, `${file}.${Date.now()}`);
+    }
+  } catch {
+  }
+}
+function renderFields2(fields) {
+  const parts = [];
+  for (const k of Object.keys(fields)) {
+    const v = fields[k];
+    parts.push(` ${k}=${Array.isArray(v) ? `[${v.join(",")}]` : String(v)}`);
+  }
+  return parts.join("");
+}
+var defaultFormatLine = (msg) => `[${(/* @__PURE__ */ new Date()).toISOString().replace("T", " ").replace("Z", "")}] ${msg}
+`;
+function createFileLogger(opts) {
+  const formatLine = opts.formatLine ?? defaultFormatLine;
+  const logLevel = opts.logLevel ?? "INFO";
+  const pid = opts.pid ?? process.pid;
+  ensureDir(opts.textFile);
+  if (opts.eventsFile) ensureDir(opts.eventsFile);
+  if (opts.rotateBytes) {
+    rotateIfNeeded(opts.textFile, opts.rotateBytes);
+    if (opts.eventsFile) rotateIfNeeded(opts.eventsFile, opts.rotateBytes);
+  }
+  function log2(msg) {
+    const line = formatLine(msg);
+    if (opts.mirrorToStderr) process.stderr.write(line);
+    try {
+      appendFileSync(opts.textFile, line);
+    } catch {
+    }
+  }
+  function appendEvent(event, fields, message) {
+    if (!opts.eventsFile) return;
+    if (!shouldEmitLevel(fields.level, logLevel)) {
+      return;
+    }
+    const line = JSON.stringify({
+      ts: (/* @__PURE__ */ new Date()).toISOString(),
+      event,
+      fields: redactFields(fields),
+      message: message ?? null,
+      pid
+    }) + "\n";
+    try {
+      appendFileSync(opts.eventsFile, line);
+    } catch {
+    }
+  }
+  function makeLogger(bound) {
+    return {
+      log(event, fields, message) {
+        const merged = { ...bound, ...fields ?? {} };
+        appendEvent(event, merged, message);
+        if (message) {
+          log2(`[${event}] ${message}`);
+        } else {
+          const fieldsStr = renderFields2(merged);
+          log2(fieldsStr ? `[${event}]${fieldsStr}` : `[${event}]`);
+        }
+      },
+      child(fields) {
+        return makeLogger({ ...bound, ...fields });
+      }
+    };
+  }
+  return { log: log2, appendEvent, logger: makeLogger(opts.bound ?? {}) };
+}
+
 // ../../packages/network-adapter/src/kernel/poll-backstop.ts
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+init_define_OPENCODE_BUILD_INFO();
+import { existsSync, mkdirSync as mkdirSync2, readFileSync as readFileSync3, writeFileSync } from "node:fs";
+import { dirname as dirname2, join as join2 } from "node:path";
 import { homedir } from "node:os";
 var DEFAULT_CADENCE_SECONDS = 300;
 var MIN_CADENCE_SECONDS = 60;
@@ -19573,12 +20093,12 @@ var DEFAULT_HEARTBEAT_INTERVAL_MS = 3e4;
 var MIN_HEARTBEAT_INTERVAL_MS = 1e4;
 var HEARTBEAT_RETRY_BACKOFF_MS = 5e3;
 function defaultCursorFile(role, agentId) {
-  return join(homedir(), ".ois", `poll-cursor-${role}-${agentId}.json`);
+  return join2(homedir(), ".ois", `poll-cursor-${role}-${agentId}.json`);
 }
 function readCursor(path) {
   if (!existsSync(path)) return void 0;
   try {
-    const raw = readFileSync(path, "utf-8");
+    const raw = readFileSync3(path, "utf-8");
     const parsed = JSON.parse(raw);
     if (parsed && typeof parsed === "object" && (parsed.lastSeenId === void 0 || typeof parsed.lastSeenId === "string")) {
       return parsed.lastSeenId;
@@ -19590,10 +20110,10 @@ function readCursor(path) {
 }
 function writeCursor(path, lastSeenId, log2 = () => {
 }) {
-  const dir = dirname(path);
+  const dir = dirname2(path);
   if (!existsSync(dir)) {
     try {
-      mkdirSync(dir, { recursive: true, mode: 448 });
+      mkdirSync2(dir, { recursive: true, mode: 448 });
     } catch (err) {
       log2(`[poll-backstop] mkdirSync(${dir}) failed: ${err}`);
       return;
@@ -19645,6 +20165,8 @@ var PollBackstop = class {
       log: opts.log ?? (() => {
       }),
       onPolledMessage: opts.onPolledMessage ?? (() => {
+      }),
+      onHeartbeatTick: opts.onHeartbeatTick ?? (() => {
       }),
       heartbeatIntervalMs,
       heartbeatEnabled,
@@ -19772,33 +20294,59 @@ var PollBackstop = class {
     if (this.heartbeatInFlight) return;
     this.heartbeatInFlight = true;
     try {
-      const agent = getAgent();
-      if (!agent || agent.state !== "streaming") return;
-      try {
-        await agent.call("transport_heartbeat", {}, { internal: true });
-        return;
-      } catch (firstErr) {
+      const hookSettled = Promise.resolve().then(() => this.opts.onHeartbeatTick()).catch((err) => {
         this.opts.log(
-          `[poll-backstop] transport_heartbeat failed (1st; retrying in ${HEARTBEAT_RETRY_BACKOFF_MS}ms): ${firstErr?.message ?? String(firstErr)}`
+          `[poll-backstop] onHeartbeatTick threw (non-fatal): ${err?.message ?? String(err)}`
         );
-      }
-      await new Promise((resolve) => setTimeout(resolve, HEARTBEAT_RETRY_BACKOFF_MS));
-      try {
-        const agent2 = getAgent();
-        if (!agent2 || agent2.state !== "streaming") return;
-        await agent2.call("transport_heartbeat", {}, { internal: true });
-      } catch (secondErr) {
-        this.opts.log(
-          `[poll-backstop] transport_heartbeat failed (2nd; skipping cycle): ${secondErr?.message ?? String(secondErr)}`
-        );
-      }
+      });
+      await this.sendHeartbeat(getAgent);
+      await hookSettled;
     } finally {
       this.heartbeatInFlight = false;
     }
   }
+  /**
+   * Send `transport_heartbeat` with one backoff retry. Gated on a streaming
+   * agent (the heartbeat needs the agent transport); a non-streaming agent is a
+   * no-op. Split out of `tickHeartbeat` so its early returns stay local — the
+   * caller must still settle the concurrent tick hook before releasing the
+   * heartbeatInFlight guard.
+   */
+  async sendHeartbeat(getAgent) {
+    const agent = getAgent();
+    if (!agent || agent.state !== "streaming") return;
+    try {
+      await agent.call("transport_heartbeat", {}, { internal: true });
+      return;
+    } catch (firstErr) {
+      this.opts.log(
+        `[poll-backstop] transport_heartbeat failed (1st; retrying in ${HEARTBEAT_RETRY_BACKOFF_MS}ms): ${firstErr?.message ?? String(firstErr)}`
+      );
+    }
+    await new Promise((resolve2) => setTimeout(resolve2, HEARTBEAT_RETRY_BACKOFF_MS));
+    try {
+      const agent2 = getAgent();
+      if (!agent2 || agent2.state !== "streaming") return;
+      await agent2.call("transport_heartbeat", {}, { internal: true });
+    } catch (secondErr) {
+      this.opts.log(
+        `[poll-backstop] transport_heartbeat failed (2nd; skipping cycle): ${secondErr?.message ?? String(secondErr)}`
+      );
+    }
+  }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
+// ../../packages/network-adapter/src/kernel/session-claim.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../packages/network-adapter/src/tool-manager/dispatcher.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
+init_define_OPENCODE_BUILD_INFO();
 var ExperimentalServerTasks = class {
   constructor(_server) {
     this._server = _server;
@@ -20011,7 +20559,7 @@ var ExperimentalServerTasks = class {
   }
 };
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
 var Server = class extends Protocol {
   /**
    * Initializes this server with the given name and version information.
@@ -20391,7 +20939,14 @@ var Server = class extends Protocol {
   }
 };
 
+// ../../packages/message-router/src/index.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../packages/message-router/src/message-router.ts
+init_define_OPENCODE_BUILD_INFO();
+
 // ../../packages/message-router/src/seen-id-cache.ts
+init_define_OPENCODE_BUILD_INFO();
 var DEFAULT_CAPACITY = 1e3;
 var ENV_OVERRIDE_VAR = "OIS_ADAPTER_SEEN_ID_CACHE_N";
 var SeenIdCache = class {
@@ -20495,6 +21050,259 @@ var MessageRouter = class {
   }
 };
 
+// ../../packages/message-router/src/notification-coalescer.ts
+init_define_OPENCODE_BUILD_INFO();
+var NotificationCoalescer = class {
+  io;
+  rateLimitMs;
+  flushCap;
+  now;
+  queue = [];
+  backlog = [];
+  lastPromptTime = 0;
+  sessionActive = false;
+  constructor(opts) {
+    this.io = opts.io;
+    this.rateLimitMs = opts.rateLimitMs ?? 3e4;
+    this.flushCap = opts.flushCap ?? 50;
+    this.now = opts.now ?? (() => Date.now());
+  }
+  /** Diagnostics + host session-event tests. */
+  getSessionActive() {
+    return this.sessionActive;
+  }
+  /**
+   * Shim-fed session-activity transition. On transition to inactive, drains the
+   * buffered queue (or, if empty, the deferred backlog) — the host's session
+   * just went idle/ended, so now is the moment to surface. On active, buffer.
+   *
+   * The field is set synchronously (before any await) so a host's sync test
+   * setup observes it immediately.
+   */
+  async setSessionActive(active) {
+    this.sessionActive = active;
+    if (!active) {
+      if (this.queue.length > 0) await this.flushQueue();
+      else if (this.backlog.length > 0) await this.flushBacklog();
+    }
+  }
+  /**
+   * Route a notification through the pacer. While a session is active, buffer
+   * onto the queue (with the optional bounded-flush cap); otherwise surface now.
+   *
+   * `capFlush` defaults true (the live SSE path's R1 bounded fallback). The
+   * drained-pending-action path passes `false` to preserve its original
+   * no-cap behavior.
+   */
+  async enqueue(n, opts) {
+    if (this.sessionActive) {
+      this.queue.push(n);
+      if ((opts?.capFlush ?? true) && this.queue.length >= this.flushCap) {
+        await this.flushQueue();
+      }
+    } else {
+      await this.processNotification(n);
+    }
+  }
+  isRateLimited() {
+    return this.now() - this.lastPromptTime < this.rateLimitMs;
+  }
+  /** Surface an LLM prompt and stamp the rate-limit clock. */
+  async prompt(text) {
+    this.lastPromptTime = this.now();
+    await this.io.promptLLM(text);
+  }
+  buildBacklogSuffix() {
+    if (this.backlog.length === 0) return "";
+    const lines = [
+      "",
+      `--- Deferred Backlog (${this.backlog.length} event${this.backlog.length > 1 ? "s" : ""}) ---`,
+      "The following actionable events arrived while you were busy and were deferred.",
+      "Please review and address them after your current task:"
+    ];
+    for (let i = 0; i < this.backlog.length; i++) {
+      lines.push(`${i + 1}. ${this.backlog[i].promptText}`);
+    }
+    return lines.join("\n");
+  }
+  drainBacklog() {
+    const suffix = this.buildBacklogSuffix();
+    this.backlog.length = 0;
+    return suffix;
+  }
+  async flushBacklog() {
+    if (this.backlog.length === 0) return;
+    if (!this.io.autoPrompt()) {
+      this.backlog.length = 0;
+      return;
+    }
+    const lines = ["You have deferred Hub events that need attention:"];
+    for (let i = 0; i < this.backlog.length; i++) {
+      lines.push(`${i + 1}. ${this.backlog[i].promptText}`);
+    }
+    lines.push("\nPlease review and address these items.");
+    this.backlog.length = 0;
+    if (!this.isRateLimited()) {
+      await this.prompt(lines.join("\n"));
+    } else {
+      await this.io.injectContext(lines.join("\n"));
+    }
+  }
+  async processNotification(n) {
+    await this.io.showToast(n.message);
+    if (!this.io.autoPrompt()) return;
+    if (n.level === "actionable") {
+      if (this.isRateLimited()) {
+        this.backlog.push(n);
+        await this.io.showToast("Rate limited: queued for follow-up", "warning");
+      } else {
+        const backlog = this.drainBacklog();
+        await this.prompt(n.promptText + backlog);
+      }
+    } else {
+      await this.io.injectContext(n.promptText);
+    }
+  }
+  async flushQueue() {
+    if (this.queue.length === 0) return;
+    const items = this.queue.splice(0);
+    if (items.length === 1) {
+      await this.processNotification(items[0]);
+      return;
+    }
+    for (const item of items) await this.io.showToast(item.message);
+    if (!this.io.autoPrompt()) return;
+    const lines = ["While you were working, the following Hub events occurred:"];
+    for (let i = 0; i < items.length; i++) {
+      lines.push(`${i + 1}. ${items[i].promptText}`);
+    }
+    const hasActionable = items.some((i) => i.level === "actionable");
+    if (hasActionable) {
+      lines.push("\nPlease address the actionable items above.");
+      if (!this.isRateLimited()) {
+        const backlog = this.drainBacklog();
+        await this.prompt(lines.join("\n") + backlog);
+      } else {
+        for (const item of items) {
+          if (item.level === "actionable") this.backlog.push(item);
+        }
+        await this.io.showToast("Rate limited: queued for follow-up", "warning");
+      }
+    } else {
+      await this.io.injectContext(lines.join("\n"));
+    }
+  }
+};
+
+// ../../packages/network-adapter/src/tool-manager/claimable-digest-tracker.ts
+init_define_OPENCODE_BUILD_INFO();
+var ClaimableDigestTracker = class {
+  /** The claimable id set the agent was last woken about (the de-dup baseline). */
+  lastSurfaced = /* @__PURE__ */ new Set();
+  /**
+   * Decide whether this tick should surface a claimable-digest wake.
+   * @param input current claimable ids + idle state for this tick.
+   */
+  reconcile(input) {
+    const count = input.claimableIds.length;
+    if (!input.isIdle) {
+      return { emit: false, count, newCount: 0 };
+    }
+    const newIds = input.claimableIds.filter((id) => !this.lastSurfaced.has(id));
+    const emit = count > 0 && newIds.length > 0;
+    this.lastSurfaced = new Set(input.claimableIds);
+    return { emit, count, newCount: newIds.length };
+  }
+  /** Diagnostic/test accessor for the current de-dup baseline size. */
+  getSurfacedCount() {
+    return this.lastSurfaced.size;
+  }
+};
+
+// ../../packages/network-adapter/src/tool-manager/work-lease-tracker.ts
+init_define_OPENCODE_BUILD_INFO();
+var LEASE_OPEN_VERBS = /* @__PURE__ */ new Set(["claim_work", "renew_lease", "start_work"]);
+var LEASE_CLOSE_VERBS = /* @__PURE__ */ new Set([
+  "complete_work",
+  "abandon_work",
+  "release_work",
+  "block_work"
+]);
+var WINDOW_RESET_VERBS = /* @__PURE__ */ new Set(["claim_work", "renew_lease"]);
+function parseLease(result) {
+  const wi = result?.workItem;
+  if (!wi || typeof wi.id !== "string") return null;
+  const expiresAt = wi.lease?.expiresAt;
+  if (typeof expiresAt !== "string") return null;
+  const expiresAtMs = Date.parse(expiresAt);
+  if (Number.isNaN(expiresAtMs)) return null;
+  return { workId: wi.id, expiresAtMs };
+}
+function parseWorkId(result, args) {
+  const id = result?.workItem?.id;
+  if (typeof id === "string") return id;
+  if (args && typeof args.workId === "string") return args.workId;
+  return null;
+}
+var WorkLeaseTracker = class {
+  leases = /* @__PURE__ */ new Map();
+  /**
+   * Observe one of THIS agent's work-verb tool-call results as it passes
+   * through the dispatcher. Best-effort: an unrecognized verb or an
+   * unparseable result is a no-op.
+   */
+  observe(method, args, result, nowMs) {
+    if (LEASE_CLOSE_VERBS.has(method)) {
+      const workId = parseWorkId(result, args);
+      if (workId) this.leases.delete(workId);
+      return;
+    }
+    if (!LEASE_OPEN_VERBS.has(method)) return;
+    const parsed = parseLease(result);
+    if (!parsed) return;
+    const existing = this.leases.get(parsed.workId);
+    const resetWindow = WINDOW_RESET_VERBS.has(method) || !existing;
+    this.leases.set(parsed.workId, {
+      workId: parsed.workId,
+      // claim/renew reopen the window at observe-time; start_work keeps the
+      // existing window start (it does not extend the lease).
+      windowStartMs: resetWindow ? nowMs : existing.windowStartMs,
+      expiresAtMs: parsed.expiresAtMs,
+      prompted: resetWindow ? false : existing.prompted
+    });
+  }
+  /**
+   * Held leases that have crossed `thresholdFraction` of their current window
+   * but not yet expired, and have not been prompted this window. The host
+   * emits a renew/block/abandon stall-prompt for each (then marks them).
+   *
+   * @param thresholdFraction window fraction at which to prompt (~0.5–0.75;
+   *   default 0.6 = 60% of the lease life elapsed).
+   */
+  dueForStallPrompt(nowMs, thresholdFraction = 0.6) {
+    const due = [];
+    for (const lease of this.leases.values()) {
+      if (lease.prompted) continue;
+      const windowLen = lease.expiresAtMs - lease.windowStartMs;
+      if (windowLen <= 0) continue;
+      const elapsed = nowMs - lease.windowStartMs;
+      if (elapsed >= thresholdFraction * windowLen && nowMs < lease.expiresAtMs) {
+        due.push({ workId: lease.workId, msUntilExpiry: lease.expiresAtMs - nowMs });
+      }
+    }
+    return due;
+  }
+  /** Latch a lease as prompted for its current window (call after emitting). */
+  markPrompted(workId) {
+    const lease = this.leases.get(workId);
+    if (lease) lease.prompted = true;
+  }
+  /** Diagnostic/test accessor: number of currently-held tracked leases. */
+  size() {
+    return this.leases.size;
+  }
+};
+
 // ../../packages/network-adapter/src/tool-manager/dispatcher.ts
 var TOOL_CALL_SIGNAL_SKIP = /* @__PURE__ */ new Set([
   "signal_working_started",
@@ -20518,12 +21326,21 @@ function injectQueueItemId(name, args, pendingActionMap) {
   pendingActionMap.delete(pendingKey("thread_message", threadId));
   return { ...args, sourceQueueItemId: queueItemId };
 }
+var WAKE_STALL_READ_TIMEOUT_MS = 1e4;
+function withTimeout(p, ms, label) {
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(() => reject(new Error(`${label} timed out after ${ms}ms`)), ms);
+  });
+  return Promise.race([p, timeout]).finally(() => clearTimeout(timer));
+}
 function createSharedDispatcher(opts) {
   const log2 = opts.log ?? (() => {
   });
   const serverName = opts.serverName ?? "proxy";
   const serverCapabilities = opts.serverCapabilities ?? { tools: {}, logging: {} };
   const pendingActionMap = /* @__PURE__ */ new Map();
+  let activeCallCount = 0;
   let capturedClientInfo = {
     name: "unknown",
     version: "0.0.0"
@@ -20585,12 +21402,104 @@ function createSharedDispatcher(opts) {
       if (state === "streaming") void pollBackstop?.tick(opts.getAgent);
     }
   };
+  const claimableDigest = new ClaimableDigestTracker();
+  const workLeases = new WorkLeaseTracker();
+  let wakeStallInFlight = false;
+  async function runWakeStallReconcile() {
+    if (wakeStallInFlight) return;
+    const agent = opts.getAgent();
+    if (!agent || agent.state !== "streaming") return;
+    const agentId = agent.getMetrics?.().agentId;
+    if (!agentId) return;
+    const role = opts.pollBackstop?.role;
+    if (!role) return;
+    wakeStallInFlight = true;
+    try {
+      const idle = activeCallCount === 0;
+      const nowMs = Date.now();
+      let claimableCount = 0;
+      try {
+        const raw = await withTimeout(
+          agent.call(
+            "list_ready_work",
+            { role, scopeToCaller: true },
+            { internal: true }
+          ),
+          WAKE_STALL_READ_TIMEOUT_MS,
+          "list_ready_work wake/stall read"
+        );
+        const items = raw?.items;
+        if (Array.isArray(items)) {
+          const claimableIds = items.map((i) => i?.id).filter((id) => typeof id === "string");
+          claimableCount = claimableIds.length;
+          const decision = claimableDigest.reconcile({ claimableIds, isIdle: idle });
+          if (decision.emit) {
+            router.route({
+              kind: "notification.actionable",
+              event: {
+                event: "work_claimable_digest",
+                data: { role, count: decision.count, newCount: decision.newCount }
+              }
+            });
+            log2(
+              `[idea-353] inbound digest emitted \u2014 ${decision.count} claimable (${decision.newCount} new) for ${role}`
+            );
+          }
+        }
+      } catch (err) {
+        log2(
+          `[idea-353] list_ready_work tick failed (non-fatal): ${err?.message ?? err}`
+        );
+      }
+      if (idle) {
+        for (const due of workLeases.dueForStallPrompt(nowMs)) {
+          router.route({
+            kind: "notification.actionable",
+            event: {
+              event: "work_lease_stall",
+              data: { workId: due.workId, msUntilExpiry: due.msUntilExpiry }
+            }
+          });
+          workLeases.markPrompted(due.workId);
+          log2(
+            `[idea-353] outbound stall-prompt emitted \u2014 ${due.workId} (~${Math.round(due.msUntilExpiry / 6e4)}m left)`
+          );
+        }
+      }
+      const heldLeases = workLeases.size();
+      const statusState = !idle ? "working" : heldLeases > 0 ? "holding" : "idle";
+      log2(
+        `[idea-353][agent-status] state=${statusState} idle=${idle} claimable=${claimableCount} heldLeases=${heldLeases}`
+      );
+    } finally {
+      wakeStallInFlight = false;
+    }
+  }
+  const hostHeartbeatTick = opts.pollBackstop?.onHeartbeatTick;
   const pollBackstop = opts.pollBackstop ? new PollBackstop({
     ...opts.pollBackstop,
     log: opts.pollBackstop.log ?? log2,
     onPolledMessage: (event) => {
       router.route({ kind: "notification.actionable", event });
       fireClaimMessage(event);
+    },
+    onHeartbeatTick: async () => {
+      if (hostHeartbeatTick) {
+        try {
+          await hostHeartbeatTick();
+        } catch (err) {
+          log2(
+            `[tick] host heartbeat hook threw (non-fatal): ${err?.message ?? err}`
+          );
+        }
+      }
+      try {
+        await runWakeStallReconcile();
+      } catch (err) {
+        log2(
+          `[tick] wake/stall reconcile threw (non-fatal): ${err?.message ?? err}`
+        );
+      }
     }
   }) : void 0;
   async function ackMessage(messageId) {
@@ -20670,7 +21579,7 @@ function createSharedDispatcher(opts) {
             `[ListTools] adapter not ready (attempt ${attempt}/${LIST_TOOLS_RETRY_ATTEMPTS}) \u2014 retrying in ${LIST_TOOLS_RETRY_DELAY_MS}ms`
           );
           await new Promise(
-            (resolve) => setTimeout(resolve, LIST_TOOLS_RETRY_DELAY_MS)
+            (resolve2) => setTimeout(resolve2, LIST_TOOLS_RETRY_DELAY_MS)
           );
         }
       }
@@ -20704,6 +21613,7 @@ function createSharedDispatcher(opts) {
       const callStartedAt = Date.now();
       const requestedTool = request.params.name;
       log2(`[CallTool] ${requestedTool} entered`);
+      activeCallCount++;
       try {
         if (opts.callToolGate) {
           log2(`[CallTool] ${requestedTool} awaiting callToolGate`);
@@ -20760,6 +21670,18 @@ function createSharedDispatcher(opts) {
         try {
           result = await agent.call(name, outgoingArgs);
           log2(`[CallTool] ${name} agent.call returned in ${Date.now() - agentCallStart}ms`);
+          try {
+            workLeases.observe(name, outgoingArgs, result, Date.now());
+          } catch (obsErr) {
+            log2(`[idea-353] kernel lease observe threw (non-fatal): ${obsErr?.message ?? obsErr}`);
+          }
+          if (opts.onToolCallResult) {
+            try {
+              opts.onToolCallResult(name, outgoingArgs, result);
+            } catch (hookErr) {
+              log2(`[idea-353] onToolCallResult hook threw (non-fatal): ${hookErr?.message ?? hookErr}`);
+            }
+          }
         } finally {
           if (wrapWithSignal) {
             agent.call("signal_working_completed", {}).catch((err) => {
@@ -20788,6 +21710,8 @@ function createSharedDispatcher(opts) {
           ],
           isError: true
         };
+      } finally {
+        activeCallCount--;
       }
     });
     return server;
@@ -20799,7 +21723,9 @@ function createSharedDispatcher(opts) {
     getClientInfo,
     makePendingActionItemHandler,
     pollBackstop,
-    ackMessage
+    ackMessage,
+    getActiveCallCount: () => activeCallCount,
+    isIdle: () => activeCallCount === 0
   };
 }
 function assertHostWiringComplete(dispatcher2, log2 = (m) => console.error(m)) {
@@ -20817,7 +21743,107 @@ function assertHostWiringComplete(dispatcher2, log2 = (m) => console.error(m)) {
   );
 }
 
+// ../../packages/network-adapter/src/tool-manager/tool-catalog-cache.ts
+init_define_OPENCODE_BUILD_INFO();
+
+// ../../packages/network-adapter/src/tool-manager/tool-surface-reconciler.ts
+init_define_OPENCODE_BUILD_INFO();
+var ToolSurfaceReconciler = class {
+  constructor(deps) {
+    this.deps = deps;
+    this.log = deps.log ?? (() => {
+    });
+  }
+  deps;
+  /**
+   * The revision the host is believed to currently have applied. null until
+   * the first successful reconcile establishes the baseline.
+   */
+  appliedRevision = null;
+  log;
+  /** Test/diagnostic accessor for the current applied-state marker. */
+  getAppliedRevision() {
+    return this.appliedRevision;
+  }
+  /**
+   * One reconcile pass. Idempotent and safe to call from either trigger:
+   *   1. Resolve the live revision; no-op on unknown (fetch failed).
+   *   2. On first pass, seed the applied baseline from the on-disk cache
+   *      (what the host's startup probe served) — or from live if no cache.
+   *   3. On applied-vs-live drift, emit `list_changed` + advance the baseline.
+   *
+   * @param reason short label for logs (e.g. "identityReady", "heartbeat").
+   */
+  async reconcile(reason = "reconcile") {
+    const live = await this.deps.fetchLiveRevision();
+    if (live === null) {
+      this.log(
+        `[tool-surface-reconcile] ${reason}: live revision unknown \u2014 skipping (cache trusted)`
+      );
+      return { emitted: false, live: null };
+    }
+    if (this.appliedRevision === null) {
+      const served = this.deps.readServedRevision();
+      this.appliedRevision = served ?? live;
+      this.log(
+        `[tool-surface-reconcile] ${reason}: baseline applied=${this.appliedRevision} (served=${served ?? "none"}, live=${live})`
+      );
+    }
+    if (live !== this.appliedRevision) {
+      this.log(
+        `[tool-surface-reconcile] ${reason}: drift applied=${this.appliedRevision} \u2192 live=${live} \u2014 emitting tools/list_changed`
+      );
+      try {
+        this.deps.emitListChanged();
+      } catch (err) {
+        this.log(
+          `[tool-surface-reconcile] ${reason}: emitListChanged threw (non-fatal): ${err?.message ?? String(err)}`
+        );
+      }
+      this.appliedRevision = live;
+      return { emitted: true, live };
+    }
+    return { emitted: false, live };
+  }
+};
+
+// ../../packages/network-adapter/src/tool-manager/health-revision.ts
+init_define_OPENCODE_BUILD_INFO();
+function makeFetchLiveToolSurfaceRevision(opts) {
+  const log2 = opts.log ?? (() => {
+  });
+  const doFetch = opts.fetch ?? globalThis.fetch;
+  const healthUrl = opts.hubUrl.replace(/\/mcp(\/.*)?$/, "/health");
+  return async () => {
+    try {
+      const res = await doFetch(healthUrl);
+      if (!res.ok) {
+        log2(
+          `[Cache] /health fetch returned status ${res.status} \u2014 cache invalidation will trust existing cache`
+        );
+        return null;
+      }
+      const json = await res.json();
+      if (typeof json.version === "string") {
+        log2(`[Cache] Hub version: ${json.version}`);
+      }
+      if (typeof json.toolSurfaceRevision === "string" && json.toolSurfaceRevision !== "") {
+        log2(`[Cache] Tool-surface revision resolved: ${json.toolSurfaceRevision}`);
+        return json.toolSurfaceRevision;
+      }
+      log2(
+        `[Cache] /health returned no toolSurfaceRevision field \u2014 cache invalidation will trust existing cache`
+      );
+      return null;
+    } catch (err) {
+      log2(`[Cache] /health fetch failed (non-fatal): ${err?.message ?? String(err)}`);
+      return null;
+    }
+  };
+}
+
 // ../../packages/network-adapter/src/prompt-format.ts
+init_define_OPENCODE_BUILD_INFO();
 function getActionText(event, data) {
   switch (event) {
     case "task_issued":
@@ -20834,6 +21860,10 @@ function getActionText(event, data) {
       return `Read with get_review(taskId="${data.taskId}")`;
     case "proposal_decided":
       return "Review decision and act if needed";
+    case "work_claimable_digest":
+      return "Claimable work available \u2014 list_ready_work then claim_work";
+    case "work_lease_stall":
+      return `Held work ${data.workId ?? ""} nearing lease expiry \u2014 renew_lease / block_work / abandon_work`;
     default:
       return "Review and act as needed";
   }
@@ -20924,6 +21954,22 @@ function renderMessageArrived(data, cfg) {
   }
   return `[Hub] Message ${msgId} (kind=${kind}) arrived. Use ${p}list_messages or ${p}claim_message to fetch full content + ack.`;
 }
+function renderWorkClaimableDigest(data, cfg) {
+  const p = cfg.toolPrefix;
+  const role = data.role || "your";
+  const count = typeof data.count === "number" ? data.count : 0;
+  const newCount = typeof data.newCount === "number" ? data.newCount : count;
+  const noun = count === 1 ? "item" : "items";
+  const newClause = newCount > 0 && newCount < count ? ` (${newCount} new)` : "";
+  return `[Hub] ${count} ${noun} now claimable for the ${role} role${newClause}. Call ${p}list_ready_work to view, then ${p}claim_work to pick one up. (Idle-wake digest: surfaced because you are idle and newly-claimable work appeared.)`;
+}
+function renderWorkLeaseStall(data, cfg) {
+  const p = cfg.toolPrefix;
+  const workId = data.workId || "(unknown)";
+  const msUntilExpiry = typeof data.msUntilExpiry === "number" ? data.msUntilExpiry : 0;
+  const mins = Math.max(0, Math.round(msUntilExpiry / 6e4));
+  return `[Hub] Your held work ${workId} is approaching lease expiry (~${mins}m left) without a recent renew. Before the sweeper reaps it: ${p}renew_lease (still working), ${p}block_work (blocked on something), or ${p}abandon_work (giving it up). Renewing clears this prompt.`;
+}
 var RENDER_REGISTRY = /* @__PURE__ */ new Map([
   ["thread_message", renderThreadMessage],
   ["thread_convergence_finalized", renderThreadConvergenceFinalized],
@@ -20933,7 +21979,9 @@ var RENDER_REGISTRY = /* @__PURE__ */ new Map([
   ["task_issued", renderTaskIssued],
   ["review_completed", renderReviewCompleted],
   ["revision_required", renderRevisionRequired],
-  ["proposal_decided", renderProposalDecided]
+  ["proposal_decided", renderProposalDecided],
+  ["work_claimable_digest", renderWorkClaimableDigest],
+  ["work_lease_stall", renderWorkLeaseStall]
 ]);
 function defaultTemplate(event, _data, _cfg) {
   return `[Hub] Notification: ${event}.`;
@@ -20965,14 +22013,19 @@ function buildToastMessage(event, data) {
       const cause = data.cause || "unknown";
       return `Agent ${id} state-changed (${cause})`;
     }
+    case "work_claimable_digest":
+      return `${data.count ?? 0} work item(s) claimable for ${data.role ?? "your role"}`;
+    case "work_lease_stall":
+      return `Lease expiring: ${data.workId ?? "held work"}`;
     default:
       return `Hub: ${event}`;
   }
 }
 
 // ../../packages/network-adapter/src/notification-log.ts
-import { appendFileSync, mkdirSync as mkdirSync2, existsSync as existsSync2 } from "node:fs";
-import { dirname as dirname2 } from "node:path";
+init_define_OPENCODE_BUILD_INFO();
+import { appendFileSync as appendFileSync2, mkdirSync as mkdirSync3, existsSync as existsSync2 } from "node:fs";
+import { dirname as dirname3 } from "node:path";
 function appendNotification(entry, opts) {
   const { event, data, action } = entry;
   const ts = (/* @__PURE__ */ new Date()).toISOString().replace("T", " ").slice(0, 19);
@@ -20994,11 +22047,11 @@ function appendNotification(entry, opts) {
   lines.push("");
   const block = lines.join("\n");
   try {
-    const dir = dirname2(opts.logPath);
+    const dir = dirname3(opts.logPath);
     if (!existsSync2(dir)) {
-      mkdirSync2(dir, { recursive: true });
+      mkdirSync3(dir, { recursive: true });
     }
-    appendFileSync(opts.logPath, block);
+    appendFileSync2(opts.logPath, block);
   } catch {
   }
   if (opts.mirror) {
@@ -21008,8 +22061,12 @@ function appendNotification(entry, opts) {
     }
   }
 }
+function buildPendingTaskNotification(task) {
+  return { event: "task_issued", data: task, action: "Pick up with get_task" };
+}
 
-// ../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/webStandardStreamableHttp.js
+// ../../../../../../../../home/apnex/taceng/agentic-network-greg/node_modules/@modelcontextprotocol/sdk/dist/esm/server/webStandardStreamableHttp.js
+init_define_OPENCODE_BUILD_INFO();
 var WebStandardStreamableHTTPServerTransport = class {
   constructor(options = {}) {
     this._started = false;
@@ -21381,9 +22438,9 @@ data:
       const initRequest = messages.find((m) => isInitializeRequest(m));
       const clientProtocolVersion = initRequest ? initRequest.params.protocolVersion : req.headers.get("mcp-protocol-version") ?? DEFAULT_NEGOTIATED_PROTOCOL_VERSION;
       if (this._enableJsonResponse) {
-        return new Promise((resolve) => {
+        return new Promise((resolve2) => {
           this._streamMapping.set(streamId, {
-            resolveJson: resolve,
+            resolveJson: resolve2,
             cleanup: () => {
               this._streamMapping.delete(streamId);
             }
@@ -21612,21 +22669,39 @@ data:
 };
 
 // src/shim.ts
-import { readFileSync as readFileSync2, appendFileSync as appendFileSync2, mkdirSync as mkdirSync3 } from "fs";
-import { join as join2, dirname as dirname3 } from "path";
-var PROXY_VERSION = "4.3.0";
-var SDK_VERSION = "@apnex/network-adapter@2.1.0";
-var RATE_LIMIT_MS = 3e4;
+import { join as join3, dirname as dirname4, resolve } from "path";
+import { fileURLToPath } from "url";
+import { createRequire } from "module";
+var __shimDir = dirname4(fileURLToPath(import.meta.url));
+var __require = createRequire(import.meta.url);
+var OPENCODE_PLUGIN_PKG_VERSION = readPackageVersion(
+  resolve(__shimDir, "..", "package.json"),
+  "unknown"
+);
+var NETWORK_ADAPTER_PKG_VERSION = true ? "0.1.4" : (() => {
+  try {
+    return readPackageVersion(
+      __require.resolve("@apnex/network-adapter/package.json"),
+      OPENCODE_PLUGIN_PKG_VERSION
+    );
+  } catch {
+    return OPENCODE_PLUGIN_PKG_VERSION;
+  }
+})();
+var PROXY_VERSION = OPENCODE_PLUGIN_PKG_VERSION;
+var SDK_VERSION = `@apnex/network-adapter@${NETWORK_ADAPTER_PKG_VERSION}`;
+var BUNDLE_BUILD_INFO = typeof define_OPENCODE_BUILD_INFO_default !== "undefined" ? define_OPENCODE_BUILD_INFO_default : UNKNOWN_BUILD_INFO;
+var PROXY_BUILD_INFO = BUNDLE_BUILD_INFO;
+var SDK_BUILD_INFO = BUNDLE_BUILD_INFO;
 var diagLogPath = "";
 var notificationLogPath = "";
+var __fileLog = null;
 var hubAdapter = null;
 var proxyPort = 0;
 var sdkClient = null;
 var currentSessionId = null;
-var sessionActive = false;
 var config2;
-var lastPromptTime = 0;
-var lastToolHash = "";
+var reconciler = null;
 var activeProxyServers = [];
 var dispatcher = createSharedDispatcher({
   getAgent: () => hubAdapter,
@@ -21658,104 +22733,29 @@ var dispatcher = createSharedDispatcher({
   pollBackstop: {
     role: process.env.OIS_HUB_ROLE ?? "engineer",
     firstTimerEnabled: true,
-    log: (m) => log(m)
+    log: (m) => log(m),
+    // idea-355 SLICE-1T / bug-180 L2 — tool-surface revision-poll backstop on
+    // the heartbeat cadence. Catches a Hub redeploy that changes the surface
+    // WHILE a session stays connected (the case L1's identityReady misses — no
+    // reconnect, so no fresh identityReady). Lazy `reconciler` ref (assigned in
+    // connectToHub once config.hubUrl is known); the first tick fires ≥1
+    // interval after start() so it is always populated.
+    onHeartbeatTick: async () => {
+      await reconciler?.reconcile("heartbeat");
+    }
   }
 });
 function initLogger(directory) {
-  diagLogPath = join2(directory, ".ois", "hub-plugin.log");
-  notificationLogPath = join2(directory, ".ois", "hub-plugin-notifications.log");
-  try {
-    mkdirSync3(dirname3(diagLogPath), { recursive: true });
-  } catch {
-  }
+  diagLogPath = join3(directory, ".ois", "hub-plugin.log");
+  notificationLogPath = join3(directory, ".ois", "hub-plugin-notifications.log");
+  __fileLog = createFileLogger({
+    textFile: diagLogPath,
+    formatLine: (m) => `${(/* @__PURE__ */ new Date()).toISOString()} ${m}
+`
+  });
 }
 function log(msg) {
-  if (!diagLogPath) return;
-  const line = `${(/* @__PURE__ */ new Date()).toISOString()} ${msg}
-`;
-  try {
-    appendFileSync2(diagLogPath, line);
-  } catch {
-  }
-}
-function parseLabels(raw, source) {
-  if (!raw) return void 0;
-  try {
-    const parsed = JSON.parse(raw);
-    if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
-      const out = {};
-      for (const [k, v] of Object.entries(parsed)) {
-        if (typeof v === "string") out[k] = v;
-      }
-      return Object.keys(out).length > 0 ? out : void 0;
-    }
-  } catch (err) {
-    log(`WARNING: Failed to parse labels from ${source}: ${err}`);
-  }
-  return void 0;
-}
-function loadConfig(directory) {
-  let cfg = {
-    hubUrl: "https://mcp-relay-hub-5muxctm3ta-ts.a.run.app/mcp",
-    hubToken: "",
-    autoPrompt: true,
-    role: "engineer"
-  };
-  try {
-    const configPath = join2(directory, ".ois", "adapter-config.json");
-    const raw = readFileSync2(configPath, "utf-8");
-    cfg = { ...cfg, ...JSON.parse(raw) };
-  } catch {
-  }
-  if (process.env.OIS_HUB_URL) cfg.hubUrl = process.env.OIS_HUB_URL;
-  if (process.env.OIS_HUB_TOKEN) cfg.hubToken = process.env.OIS_HUB_TOKEN;
-  if (process.env.OIS_HUB_ROLE) cfg.role = process.env.OIS_HUB_ROLE;
-  if (process.env.HUB_PLUGIN_AUTO_PROMPT)
-    cfg.autoPrompt = process.env.HUB_PLUGIN_AUTO_PROMPT.toLowerCase() !== "false";
-  const envLabels = parseLabels(process.env.OIS_HUB_LABELS, "OIS_HUB_LABELS env var");
-  if (envLabels) cfg.labels = envLabels;
-  return cfg;
-}
-var notificationQueue = [];
-var deferredBacklog = [];
-function isRateLimited() {
-  return Date.now() - lastPromptTime < RATE_LIMIT_MS;
-}
-function buildBacklogSuffix() {
-  if (deferredBacklog.length === 0) return "";
-  const lines = [
-    "",
-    `--- Deferred Backlog (${deferredBacklog.length} event${deferredBacklog.length > 1 ? "s" : ""}) ---`,
-    "The following actionable events arrived while you were busy and were deferred.",
-    "Please review and address them after your current task:"
-  ];
-  for (let i = 0; i < deferredBacklog.length; i++) {
-    lines.push(`${i + 1}. ${deferredBacklog[i].promptText}`);
-  }
-  return lines.join("\n");
-}
-function drainBacklog() {
-  const suffix = buildBacklogSuffix();
-  deferredBacklog.length = 0;
-  return suffix;
-}
-async function flushBacklog() {
-  if (deferredBacklog.length === 0) return;
-  if (!config2.autoPrompt) {
-    deferredBacklog.length = 0;
-    return;
-  }
-  const lines = ["You have deferred Hub events that need attention:"];
-  for (let i = 0; i < deferredBacklog.length; i++) {
-    lines.push(`${i + 1}. ${deferredBacklog[i].promptText}`);
-  }
-  lines.push("\nPlease review and address these items.");
-  deferredBacklog.length = 0;
-  if (!isRateLimited()) {
-    await promptLLM(lines.join("\n"));
-  } else {
-    await injectContext(lines.join("\n"));
-  }
+  __fileLog?.log(msg);
 }
 async function showToast(message, variant = "info") {
   if (!sdkClient) return;
@@ -21767,7 +22767,6 @@ async function showToast(message, variant = "info") {
 async function promptLLM(text) {
   if (!sdkClient || !currentSessionId) return;
   try {
-    lastPromptTime = Date.now();
     await sdkClient.session.promptAsync({
       path: { id: currentSessionId },
       body: { parts: [{ type: "text", text }] }
@@ -21799,94 +22798,30 @@ async function injectContext(text) {
     log(`Context injection failed: ${err}`);
   }
 }
-async function processNotification(n) {
-  await showToast(n.message);
-  if (!config2.autoPrompt) return;
-  if (n.level === "actionable") {
-    if (isRateLimited()) {
-      deferredBacklog.push(n);
-      await showToast("Rate limited: queued for follow-up", "warning");
-    } else {
-      const backlog = drainBacklog();
-      await promptLLM(n.promptText + backlog);
-    }
-  } else {
-    await injectContext(n.promptText);
+var coalescer = new NotificationCoalescer({
+  io: {
+    promptLLM,
+    injectContext,
+    showToast,
+    autoPrompt: () => !!config2.autoPrompt
   }
+});
+function emitToolListChanged() {
+  for (const server of activeProxyServers) {
+    void server.sendToolListChanged().catch((err) => log(`[ToolSurface] sendToolListChanged failed (non-fatal): ${err}`));
+  }
+  void showToast("Hub tools updated \u2014 re-enumerating", "success");
 }
-async function flushQueue() {
-  if (notificationQueue.length === 0) return;
-  const items = notificationQueue.splice(0);
-  if (items.length === 1) {
-    await processNotification(items[0]);
-    return;
-  }
-  for (const item of items) await showToast(item.message);
-  if (!config2.autoPrompt) return;
-  const lines = ["While you were working, the following Hub events occurred:"];
-  for (let i = 0; i < items.length; i++) {
-    lines.push(`${i + 1}. ${items[i].promptText}`);
-  }
-  const hasActionable = items.some((i) => i.level === "actionable");
-  if (hasActionable) {
-    lines.push("\nPlease address the actionable items above.");
-    if (!isRateLimited()) {
-      const backlog = drainBacklog();
-      await promptLLM(lines.join("\n") + backlog);
-    } else {
-      for (const item of items) {
-        if (item.level === "actionable") deferredBacklog.push(item);
-      }
-      await showToast("Rate limited: queued for follow-up", "warning");
-    }
-  } else {
-    await injectContext(lines.join("\n"));
-  }
-}
-function computeToolHash(tools) {
-  const sorted = [...tools].sort((a, b) => (a.name || "").localeCompare(b.name || ""));
-  const canonical = sorted.map((t) => `${t.name}:${JSON.stringify(t.inputSchema || {})}`).join("|");
-  let hash = 0;
-  for (let i = 0; i < canonical.length; i++) {
-    hash = (hash << 5) - hash + canonical.charCodeAt(i) | 0;
-  }
-  return hash.toString(36);
-}
-async function syncTools() {
-  if (!hubAdapter) return;
-  const s = hubAdapter.state;
-  if (s !== "streaming" && s !== "synchronizing") return;
-  try {
-    const transport = hubAdapter.getTransport();
-    const tools = await transport.listToolsRaw();
-    const newHash = computeToolHash(tools);
-    const isFirstSync = lastToolHash === "";
-    if (isFirstSync) {
-      lastToolHash = newHash;
-      log(`[ToolSync] Initial tool hash: ${newHash} (${tools.length} tools)`);
-    } else if (newHash === lastToolHash) {
-      log(`[ToolSync] Tools unchanged (hash: ${newHash})`);
-      return;
-    } else {
-      log(`[ToolSync] Tools changed! Old: ${lastToolHash}, New: ${newHash} (${tools.length} tools)`);
-      lastToolHash = newHash;
-    }
-    for (const server of activeProxyServers) {
-      try {
-        await server.sendToolListChanged();
-        log(`[ToolSync] Sent tools/list_changed to proxy server`);
-      } catch (err) {
-        log(`[ToolSync] Failed to send tools/list_changed: ${err}`);
-      }
-    }
-    await showToast(
-      isFirstSync ? "Hub connected \u2014 tools available" : "Hub tools updated following reconnection",
-      "success"
-    );
-    log(`[ToolSync] Tool sync complete \u2014 OpenCode notified`);
-  } catch (err) {
-    log(`[ToolSync] Failed to sync tools: ${err}`);
-  }
+function buildToolSurfaceReconciler(hubUrl, fetchLiveRevision = makeFetchLiveToolSurfaceRevision({
+  hubUrl,
+  log
+})) {
+  return new ToolSurfaceReconciler({
+    fetchLiveRevision,
+    readServedRevision: () => null,
+    emitListChanged: emitToolListChanged,
+    log
+  });
 }
 function surfaceActionableEvent(event) {
   const action = getActionText(event.event, event.data);
@@ -21903,11 +22838,7 @@ function surfaceActionableEvent(event) {
     message,
     promptText
   };
-  if (sessionActive) {
-    notificationQueue.push(notification);
-  } else {
-    void processNotification(notification);
-  }
+  void coalescer.enqueue(notification);
 }
 function surfaceInformationalEvent(event) {
   const action = getActionText(event.event, event.data);
@@ -21919,7 +22850,7 @@ function surfaceInformationalEvent(event) {
 function handleConnectionStateChange(state, prev, reason) {
   log(`Connection: ${prev} \u2192 ${state}${reason ? ` (${reason})` : ""}`);
   if (state === "streaming") {
-    void syncTools();
+    void reconciler?.reconcile("identityReady");
   }
 }
 async function connectToHub(agentName) {
@@ -21943,6 +22874,15 @@ async function connectToHub(agentName) {
         proxyVersion: PROXY_VERSION,
         transport: "bun-serve-proxy",
         sdkVersion: SDK_VERSION,
+        // idea-355 SLICE-3 (fork 3, single-sha): build-identity flows via
+        // clientMetadata → Hub deriveAdvisoryTags → AgentAdvisoryTags (the same
+        // wire-pattern the claude shim uses). It is ONE inlined bundle, so the
+        // SAME sha/dirty stamps both PROXY and SDK. handshake.ts spreads these
+        // ONLY when defined — set all four together.
+        proxyCommitSha: PROXY_BUILD_INFO.commitSha,
+        proxyDirty: PROXY_BUILD_INFO.dirty,
+        sdkCommitSha: SDK_BUILD_INFO.commitSha,
+        sdkDirty: SDK_BUILD_INFO.dirty,
         getClientInfo: () => ({
           name: "opencode",
           version: process.env.OPENCODE_VERSION ?? "unknown"
@@ -21950,10 +22890,9 @@ async function connectToHub(agentName) {
         llmModel: process.env.HUB_LLM_MODEL,
         onFatalHalt,
         onPendingTask: (task) => {
-          appendNotification(
-            { event: "task_issued", data: task, action: "Pick up with get_task" },
-            { logPath: notificationLogPath }
-          );
+          appendNotification(buildPendingTaskNotification(task), {
+            logPath: notificationLogPath
+          });
         },
         onPendingActionItem: (item) => {
           pendingActionItemHandler(item);
@@ -21969,11 +22908,7 @@ async function connectToHub(agentName) {
               toolPrefix: "architect-hub_"
             })
           };
-          if (sessionActive) {
-            notificationQueue.push(notification);
-          } else {
-            void processNotification(notification);
-          }
+          void coalescer.enqueue(notification, { capFlush: false });
         }
       }
     },
@@ -21992,6 +22927,7 @@ async function connectToHub(agentName) {
     }
   );
   hubAdapter.setCallbacks(dispatcher.callbacks);
+  reconciler = buildToolSurfaceReconciler(config2.hubUrl);
   await hubAdapter.start();
   log("Connected to remote Hub via McpAgentClient");
   assertHostWiringComplete(dispatcher, log);
@@ -22066,25 +23002,21 @@ async function handleSessionEvent(event) {
       currentSessionId = event.properties.info.id;
       break;
     case "session.status": {
-      if (event.properties.status.type === "idle") {
-        sessionActive = false;
-        if (notificationQueue.length > 0) await flushQueue();
-        else if (deferredBacklog.length > 0) await flushBacklog();
-      } else {
-        sessionActive = true;
-      }
+      await coalescer.setSessionActive(event.properties.status.type !== "idle");
       break;
     }
     case "session.idle":
-      sessionActive = false;
-      if (notificationQueue.length > 0) await flushQueue();
-      else if (deferredBacklog.length > 0) await flushBacklog();
+      await coalescer.setSessionActive(false);
       if (hubAdapter && !hubAdapter.isConnected) {
         try {
           await hubAdapter.start();
         } catch {
         }
       }
+      break;
+    case "session.error":
+    case "session.deleted":
+      await coalescer.setSessionActive(false);
       break;
   }
 }
@@ -22095,7 +23027,12 @@ var HubPlugin = async (ctx) => {
   );
   initLogger(workDir);
   log(`mission-55 cleanup \u2014 shared MCP-boundary dispatcher (${SDK_VERSION})`);
-  config2 = loadConfig(workDir);
+  config2 = loadConfig({
+    directory: workDir,
+    defaults: { hubUrl: "https://mcp-relay-hub-5muxctm3ta-ts.a.run.app/mcp", autoPrompt: true },
+    warn: log,
+    readAutoPrompt: true
+  });
   log(`Auto-prompt: ${config2.autoPrompt ? "enabled" : "DISABLED"}`);
   sdkClient = ctx.client;
   setTimeout(async () => {
@@ -22113,12 +23050,8 @@ var HubPlugin = async (ctx) => {
       } catch (err) {
         log(`Session list failed: ${err}`);
       }
-      const agentName = process.env.OIS_AGENT_NAME?.trim();
-      if (!agentName) {
-        log("[Handshake] FATAL: OIS_AGENT_NAME env var required (idea-251 D-prime). Set in ~/.config/apnex-agents/{name}.env. Plugin inert until restart.");
-        return;
-      }
-      log(`[Handshake] OIS_AGENT_NAME=${agentName}`);
+      const agentName = readRequiredAgentName(log);
+      if (!agentName) return;
       try {
         await connectToHub(agentName);
       } catch (err) {
